@@ -8,6 +8,27 @@
   <style>
     .empty-state { text-align:center; padding:80px 20px; color:var(--text3); }
     .empty-state p { margin-top:12px; }
+    .history-link {
+      display: block;
+      text-align: center;
+      padding: 16px;
+      margin: -20px 0 60px;
+      color: var(--text3);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+    }
+    .history-link a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .history-link a:hover { text-decoration: underline; }
+    .section-label {
+      font-size: 0.8rem;
+      color: var(--text3);
+      padding: 0 4px 8px;
+      margin-top: 8px;
+      letter-spacing: 0.5px;
+    }
   </style>
 </head>
 <body>
@@ -18,7 +39,12 @@
     <p>AI · GitHub · Hacker News · 地缘政治 · 经济投资 · 每日 Top 5</p>
   </div>
 
+  <div class="section-label">📌 最近两周</div>
   <div class="date-grid" id="grid"></div>
+
+  <div class="history-link">
+    📚 <a href="history/">查看全部历史存档</a>
+  </div>
 
   <footer class="home-footer">
     多源整合日报 · 数据源：AI 资讯 · GitHub Trending · Hacker News · Quora · 技术媒体
@@ -28,6 +54,7 @@
 <script>
 (async function () {
   const WEEKDAYS = ['日','一','二','三','四','五','六'];
+  const RECENT_DAYS = 14;
   const grid = document.getElementById('grid');
   let dates = [];
 
@@ -36,12 +63,15 @@
     if (r.ok) dates = await r.json();
   } catch(e) {}
 
-  if (!dates.length) {
+  // Show only last 14 days
+  const recent = dates.slice(0, RECENT_DAYS);
+
+  if (!recent.length) {
     grid.innerHTML = '<div class="empty-state"><p>暂无简报，请稍后再来。</p></div>';
     return;
   }
 
-  dates.forEach(d => {
+  recent.forEach(d => {
     const dt = new Date(d + 'T00:00:00');
     const day = d.split('-')[2];
     const wk = WEEKDAYS[dt.getDay()];

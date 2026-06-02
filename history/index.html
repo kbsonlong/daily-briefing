@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>历史存档 — 每日科技简报</title>
+  <link rel="stylesheet" href="../assets/style.css">
+  <style>
+    .history-header {
+      text-align: center;
+      padding: 40px 0 8px;
+    }
+    .history-header h1 {
+      font-size: 1.6rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, var(--amber), var(--orange));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 6px;
+    }
+    .history-header p {
+      color: var(--text3);
+      font-size: 0.85rem;
+    }
+    .back-home {
+      display: inline-block;
+      margin-bottom: 24px;
+      font-size: 0.85rem;
+      color: var(--accent);
+    }
+    .empty-state { text-align:center; padding:80px 20px; color:var(--text3); }
+    .month-group {
+      margin-bottom: 24px;
+    }
+    .month-label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text3);
+      padding: 8px 4px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 8px;
+    }
+    .history-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 8px;
+    }
+    .history-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 10px 14px;
+      text-decoration: none;
+      color: var(--text);
+      transition: all 0.2s;
+    }
+    .history-card:hover {
+      border-color: var(--accent);
+      text-decoration: none;
+    }
+    .history-card .day-num {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--amber);
+      min-width: 28px;
+      text-align: center;
+    }
+    .history-card .date-info .date-full {
+      font-size: 0.82rem;
+      font-weight: 500;
+    }
+    .history-card .date-info .weekday {
+      font-size: 0.7rem;
+      color: var(--text3);
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <div class="history-header">
+    <a href="../" class="back-home">← 返回首页</a>
+    <h1>📚 全部历史存档</h1>
+    <p>每日科技简报 · 完整时间线</p>
+  </div>
+
+  <div id="history-root"></div>
+
+  <footer class="home-footer">
+    多源整合日报 · 数据源：AI 资讯 · GitHub Trending · Hacker News · Quora · 技术媒体
+  </footer>
+
+</div>
+<script>
+(async function () {
+  const WEEKDAYS = ['日','一','二','三','四','五','六'];
+  const root = document.getElementById('history-root');
+  let dates = [];
+
+  try {
+    const r = await fetch('../dates.json');
+    if (r.ok) dates = await r.json();
+  } catch(e) {}
+
+  if (!dates.length) {
+    root.innerHTML = '<div class="empty-state"><p>暂无历史记录。</p></div>';
+    return;
+  }
+
+  // Group by month
+  const groups = {};
+  dates.forEach(d => {
+    const month = d.substring(0, 7); // YYYY-MM
+    if (!groups[month]) groups[month] = [];
+    groups[month].push(d);
+  });
+
+  const MONTH_NAMES = {
+    '01':'一月','02':'二月','03':'三月','04':'四月',
+    '05':'五月','06':'六月','07':'七月','08':'八月',
+    '09':'九月','10':'十月','11':'十一月','12':'十二月'
+  };
+
+  Object.keys(groups).sort().reverse().forEach(month => {
+    const [y, m] = month.split('-');
+    const label = `${y}年 ${MONTH_NAMES[m] || m+'月'}`;
+
+    const group = document.createElement('div');
+    group.className = 'month-group';
+
+    const labelEl = document.createElement('div');
+    labelEl.className = 'month-label';
+    labelEl.textContent = label;
+    group.appendChild(labelEl);
+
+    const grid = document.createElement('div');
+    grid.className = 'history-grid';
+
+    groups[month].forEach(d => {
+      const dt = new Date(d + 'T00:00:00');
+      const day = d.split('-')[2];
+      const wk = WEEKDAYS[dt.getDay()];
+      const a = document.createElement('a');
+      a.className = 'history-card';
+      a.href = `../daily/${d}/`;
+      a.innerHTML = `
+        <span class="day-num">${parseInt(day)}</span>
+        <span class="date-info">
+          <div class="date-full">${d}</div>
+          <div class="weekday">星期${wk}</div>
+        </span>`;
+      grid.appendChild(a);
+    });
+
+    group.appendChild(grid);
+    root.appendChild(group);
+  });
+})();
+</script>
+</body>
+</html>
