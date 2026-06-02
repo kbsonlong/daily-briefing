@@ -32,6 +32,15 @@
   </style>
 </head>
 <body>
+
+<nav class="topnav">
+  <a href="/daily-briefing/" class="topnav-brand">📡 每日简报</a>
+  <div class="topnav-links">
+    <a href="/daily-briefing/" class="active">首页</a>
+    <a href="/daily-briefing/history/">历史存档</a>
+  </div>
+</nav>
+
 <div class="container">
 
   <div class="home-header">
@@ -44,6 +53,8 @@
 
   <div class="history-link">
     📚 <a href="history/">查看全部历史存档</a>
+    <span style="margin:0 12px;color:var(--border)">|</span>
+    <a href="https://github.com/kbsonlong/daily-briefing" target="_blank" rel="noopener">GitHub 仓库</a>
   </div>
 
   <footer class="home-footer">
@@ -63,7 +74,6 @@
     if (r.ok) dates = await r.json();
   } catch(e) {}
 
-  // Show only last 14 days
   const recent = dates.slice(0, RECENT_DAYS);
 
   if (!recent.length) {

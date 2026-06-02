@@ -260,6 +260,48 @@ h1.page-title {
 }
 
 /* ═══════════════════════════════════════
+   Top Navigation Bar
+   ═══════════════════════════════════════ */
+.topnav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 48px;
+  max-width: var(--max-w);
+  margin: 0 auto;
+  border-bottom: 1px solid var(--border);
+}
+.topnav-brand {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text);
+  text-decoration: none;
+}
+.topnav-brand:hover { text-decoration: none; }
+.topnav-links {
+  display: flex;
+  gap: 4px;
+}
+.topnav-links a {
+  color: var(--text3);
+  font-size: 0.82rem;
+  padding: 6px 12px;
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.topnav-links a:hover {
+  color: var(--text);
+  background: var(--surface);
+  text-decoration: none;
+}
+.topnav-links a.active {
+  color: var(--accent);
+  background: rgba(59, 130, 246, 0.1);
+}
+
+/* ═══════════════════════════════════════
    Homepage Styles
    ═══════════════════════════════════════ */
 .home-header {
