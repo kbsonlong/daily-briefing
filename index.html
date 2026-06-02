@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日科技简报 — kbsonlong</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    .empty-state { text-align:center; padding:80px 20px; color:var(--text3); }
+    .empty-state p { margin-top:12px; }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <div class="home-header">
+    <h1>📡 每日科技简报</h1>
+    <p>AI · GitHub · Hacker News · 地缘政治 · 经济投资 · 每日 Top 5</p>
+  </div>
+
+  <div class="date-grid" id="grid"></div>
+
+  <footer class="home-footer">
+    多源整合日报 · 数据源：AI 资讯 · GitHub Trending · Hacker News · Quora · 技术媒体
+  </footer>
+
+</div>
+<script>
+(async function () {
+  const WEEKDAYS = ['日','一','二','三','四','五','六'];
+  const grid = document.getElementById('grid');
+  let dates = [];
+
+  try {
+    const r = await fetch('dates.json');
+    if (r.ok) dates = await r.json();
+  } catch(e) {}
+
+  if (!dates.length) {
+    grid.innerHTML = '<div class="empty-state"><p>暂无简报，请稍后再来。</p></div>';
+    return;
+  }
+
+  dates.forEach(d => {
+    const dt = new Date(d + 'T00:00:00');
+    const day = d.split('-')[2];
+    const wk = WEEKDAYS[dt.getDay()];
+    const a = document.createElement('a');
+    a.className = 'date-card';
+    a.href = `daily/${d}/`;
+    a.innerHTML = `
+      <span class="day-num">${parseInt(day)}</span>
+      <span class="date-info">
+        <div class="date-full">${d}</div>
+        <div class="weekday">星期${wk}</div>
+      </span>`;
+    grid.appendChild(a);
+  });
+})();
+</script>
+</body>
+</html>
