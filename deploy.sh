@@ -1,65 +1,65 @@
-#!/usr/bin/env bash
-# ═══════════════════════════════════════════════
-# deploy.sh — Deploy a daily report to GitHub Pages
-# Usage: ./deploy.sh YYYY-MM-DD [path/to/report.md]
-#   or:  cat report.md | ./deploy.sh YYYY-MM-DD -
-# ═══════════════════════════════════════════════
+#!/bin/bash
+# deploy.sh — Full deployment pipeline for daily-briefing GitHub Pages site
 set -euo pipefail
 
-REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
-DATE="${1:?Usage: deploy.sh YYYY-MM-DD [report.md]}"
-SRC="${2:--}"
+DATE="${1:-$(date +%Y-%m-%d)}"
+SOURCE="${2:-/tmp/daily-report.md}"
+ROOT="/data/daily-briefing"
 
-# Validate date format
-if ! [[ "$DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
-  echo "ERROR: Invalid date format: $DATE (expected YYYY-MM-DD)" >&2
-  exit 1
-fi
+REPORT_DIR="${ROOT}/daily/${DATE}"
+INDEX_TPL="${ROOT}/template.html"
+DATES_JSON="${ROOT}/dates.json"
 
-DAILY_DIR="$REPO_DIR/daily/$DATE"
+# ── 1. Create daily directory ──
+mkdir -p "$REPORT_DIR"
 
-# ── 1. Create date directory & copy template ──
-mkdir -p "$DAILY_DIR"
-cp "$REPO_DIR/template.html" "$DAILY_DIR/index.html"
+# ── 2. Copy report ──
+cp "$SOURCE" "${REPORT_DIR}/report.md"
+# Also save to reports/ for convenience
+mkdir -p "${ROOT}/reports"
+cp "$SOURCE" "${ROOT}/reports/latest.md"
+cp "$SOURCE" "${ROOT}/reports/daily-briefing-${DATE}.md"
+echo "✅ Report saved: ${REPORT_DIR}/report.md ($(wc -c < "$SOURCE") bytes)"
 
-# ── 2. Copy or pipe report markdown ──
-if [ "$SRC" = "-" ]; then
-  cat > "$DAILY_DIR/report.md"
-else
-  cp "$SRC" "$DAILY_DIR/report.md"
-fi
+# ── 3. Generate index.html from template ──
+cp "$INDEX_TPL" "${REPORT_DIR}/index.html"
+echo "✅ HTML generated: ${REPORT_DIR}/index.html"
 
-# ── 3. Update dates.json (newest first) ──
-cd "$REPO_DIR"
-DATES_JSON="$REPO_DIR/dates.json"
-
-if [ -f "$DATES_JSON" ] && python3 -c "import json; json.load(open('$DATES_JSON'))" 2>/dev/null; then
-  # Insert date, dedupe, sort desc, keep newest first
+# ── 4. Update dates.json ──
+# Add new date at beginning, keep most recent first, remove duplicates
+if [ -f "$DATES_JSON" ]; then
   python3 -c "
-import json
-with open('$DATES_JSON') as f:
+import json, sys
+dates_file = '$DATES_JSON'
+new_date = '$DATE'
+
+with open(dates_file) as f:
     dates = json.load(f)
-if '$DATE' not in dates:
-    dates.insert(0, '$DATE')
-else:
-    # move to front
-    dates.remove('$DATE')
-    dates.insert(0, '$DATE')
-dates.sort(reverse=True)
-with open('$DATES_JSON', 'w') as f:
+
+# Remove if already exists
+dates = [d for d in dates if d != new_date]
+# Insert at front
+dates.insert(0, new_date)
+
+with open(dates_file, 'w') as f:
     json.dump(dates, f, indent=2)
+    f.write('\n')
 "
+fi
+echo "✅ dates.json updated"
+
+# ── 5. Git commit & push ──
+cd "$ROOT"
+/usr/bin/git add "daily/${DATE}/" dates.json
+/usr/bin/git add reports/ 2>/dev/null || true
+
+# Only commit if there are changes
+if /usr/bin/git diff --cached --quiet 2>/dev/null; then
+  echo "ℹ️  No new changes to commit"
 else
-  echo '["'"$DATE"'"]' > "$DATES_JSON"
+  /usr/bin/git commit -m "📰 daily brief: add ${DATE} report"
+  /usr/bin/git push origin main
+  echo "✅ Pushed to GitHub Pages"
 fi
 
-# ── 4. Git commit & push ──
-git add -A
-git diff --cached --quiet && {
-  echo "No changes to commit for $DATE"
-  exit 0
-}
-git commit -m "📝 daily briefing: $DATE"
-git push
-
-echo "✅ Deployed: $DATE"
+echo "🎉 Deployment complete: ${DATE}"
