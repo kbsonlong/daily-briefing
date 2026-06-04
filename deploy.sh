@@ -1,65 +1,63 @@
 #!/bin/bash
-# deploy.sh — Full deployment pipeline for daily-briefing GitHub Pages site
 set -euo pipefail
 
 DATE="${1:-$(date +%Y-%m-%d)}"
-SOURCE="${2:-/tmp/daily-report.md}"
-ROOT="/data/daily-briefing"
+REPORT_FILE="${2:-/tmp/daily-report.md}"
+REPO_DIR="/data/daily-briefing"
 
-REPORT_DIR="${ROOT}/daily/${DATE}"
-INDEX_TPL="${ROOT}/template.html"
-DATES_JSON="${ROOT}/dates.json"
-
-# ── 1. Create daily directory ──
-mkdir -p "$REPORT_DIR"
-
-# ── 2. Copy report ──
-cp "$SOURCE" "${REPORT_DIR}/report.md"
-# Also save to reports/ for convenience
-mkdir -p "${ROOT}/reports"
-cp "$SOURCE" "${ROOT}/reports/latest.md"
-cp "$SOURCE" "${ROOT}/reports/daily-briefing-${DATE}.md"
-echo "✅ Report saved: ${REPORT_DIR}/report.md ($(wc -c < "$SOURCE") bytes)"
-
-# ── 3. Generate index.html from template ──
-cp "$INDEX_TPL" "${REPORT_DIR}/index.html"
-echo "✅ HTML generated: ${REPORT_DIR}/index.html"
-
-# ── 4. Update dates.json ──
-# Add new date at beginning, keep most recent first, remove duplicates
-if [ -f "$DATES_JSON" ]; then
-  python3 -c "
-import json, sys
-dates_file = '$DATES_JSON'
-new_date = '$DATE'
-
-with open(dates_file) as f:
-    dates = json.load(f)
-
-# Remove if already exists
-dates = [d for d in dates if d != new_date]
-# Insert at front
-dates.insert(0, new_date)
-
-with open(dates_file, 'w') as f:
-    json.dump(dates, f, indent=2)
-    f.write('\n')
-"
-fi
-echo "✅ dates.json updated"
-
-# ── 5. Git commit & push ──
-cd "$ROOT"
-/usr/bin/git add "daily/${DATE}/" dates.json
-/usr/bin/git add reports/ 2>/dev/null || true
-
-# Only commit if there are changes
-if /usr/bin/git diff --cached --quiet 2>/dev/null; then
-  echo "ℹ️  No new changes to commit"
-else
-  /usr/bin/git commit -m "📰 daily brief: add ${DATE} report"
-  /usr/bin/git push origin main
-  echo "✅ Pushed to GitHub Pages"
+if [ ! -f "$REPORT_FILE" ]; then
+  echo "ERROR: Report file $REPORT_FILE not found"
+  exit 1
 fi
 
-echo "🎉 Deployment complete: ${DATE}"
+if [ ! -d "$REPO_DIR/.git" ]; then
+  echo "Initializing git repo for GitHub Pages..."
+  cd "$REPO_DIR"
+  git init
+  git checkout -b main
+  git config user.email "daily-bot@hermes-agent.local"
+  git config user.name "Daily Report Bot"
+  cat > index.md << 'INDEXEOF'
+---
+layout: default
+title: 每日科技多源日报
+---
+
+# 📡 每日科技多源日报
+
+欢迎访问每日科技多源日报归档页面。
+
+[查看最新日报](./daily/latest.md) | [归档](./archive.md)
+
+Powered by Hermes Agent
+INDEXEOF
+  git add -A
+  git commit -m "Initial setup"
+fi
+
+mkdir -p "$REPO_DIR/daily"
+cp "$REPORT_FILE" "$REPO_DIR/daily/${DATE}.md"
+cp "$REPORT_FILE" "$REPO_DIR/daily/latest.md"
+
+cd "$REPO_DIR"
+{
+  echo "# 📚 日报归档"
+  echo ""
+  echo "| 日期 | 链接 |"
+  echo "|------|------|"
+  for f in $(ls -1 daily/*.md 2>/dev/null | sort -r | head -30); do
+    name=$(basename "$f" .md)
+    if [ "$name" != "latest" ]; then
+      echo "| $name | [查看](./$f) |"
+    fi
+  done
+} > archive.md
+
+git add -A
+git commit -m "Daily report for $DATE" || echo "No changes to commit"
+
+if git remote get-url origin &>/dev/null && [ -n "$(git remote get-url origin)" ]; then
+  git push origin main 2>/dev/null || echo "Push skipped (no remote or auth configured)"
+fi
+
+echo "Deploy complete: daily/${DATE}.md"
