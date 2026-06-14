@@ -1,63 +1,38 @@
 #!/bin/bash
-set -euo pipefail
-
-DATE="${1:-$(date +%Y-%m-%d)}"
-REPORT_FILE="${2:-/tmp/daily-report.md}"
-REPO_DIR="/data/daily-briefing"
-
-if [ ! -f "$REPORT_FILE" ]; then
-  echo "ERROR: Report file $REPORT_FILE not found"
-  exit 1
-fi
-
-if [ ! -d "$REPO_DIR/.git" ]; then
-  echo "Initializing git repo for GitHub Pages..."
-  cd "$REPO_DIR"
-  git init
-  git checkout -b main
-  git config user.email "daily-bot@hermes-agent.local"
-  git config user.name "Daily Report Bot"
-  cat > index.md << 'INDEXEOF'
----
-layout: default
-title: 每日科技多源日报
----
-
-# 📡 每日科技多源日报
-
-欢迎访问每日科技多源日报归档页面。
-
-[查看最新日报](./daily/latest.md) | [归档](./archive.md)
-
-Powered by Hermes Agent
-INDEXEOF
-  git add -A
-  git commit -m "Initial setup"
-fi
-
-mkdir -p "$REPO_DIR/daily"
-cp "$REPORT_FILE" "$REPO_DIR/daily/${DATE}.md"
-cp "$REPORT_FILE" "$REPO_DIR/daily/latest.md"
-
-cd "$REPO_DIR"
-{
-  echo "# 📚 日报归档"
-  echo ""
-  echo "| 日期 | 链接 |"
-  echo "|------|------|"
-  for f in $(ls -1 daily/*.md 2>/dev/null | sort -r | head -30); do
-    name=$(basename "$f" .md)
-    if [ "$name" != "latest" ]; then
-      echo "| $name | [查看](./$f) |"
-    fi
-  done
-} > archive.md
-
-git add -A
-git commit -m "Daily report for $DATE" || echo "No changes to commit"
-
-if git remote get-url origin &>/dev/null && [ -n "$(git remote get-url origin)" ]; then
-  git push origin main 2>/dev/null || echo "Push skipped (no remote or auth configured)"
-fi
-
-echo "Deploy complete: daily/${DATE}.md"
+set -e
+DATE="$1"
+REPORT_FILE="$2"
+if [ -z "$DATE" ] || [ -z "$REPORT_FILE" ]; then echo "Usage: $0 <date> <report-file>"; exit 1; fi
+if [ ! -f "$REPORT_FILE" ]; then echo "Report file not found: $REPORT_FILE"; exit 1; fi
+cd "$(dirname "$0")"
+if [ ! -d .git ]; then git init && git checkout -b main; fi
+mkdir -p "daily/$DATE"
+cp "$REPORT_FILE" "daily/$DATE/report.md"
+cat > "daily/$DATE/index.html" << HTMLEND
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><title>每日科技日报 - $DATE</title>
+<style>body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.6}
+h1{color:#1a1a2e;border-bottom:3px solid #e94560;padding-bottom:10px}a{color:#0f3460}
+pre{background:white;padding:20px;border:1px solid #ddd;border-radius:8px;white-space:pre-wrap;word-wrap:break-word;font-family:inherit;line-height:1.6}
+.meta{color:#666;font-size:0.9em}</style></head><body><pre>
+HTMLEND
+cat "$REPORT_FILE" >> "daily/$DATE/index.html"
+echo -e '</pre><hr><p class="meta">Daily Tech Briefing - $DATE</p></body></html>' >> "daily/$DATE/index.html"
+echo "Created daily/$DATE/index.html"
+if [ ! -f dates.json ]; then echo '{"dates":[]}' > dates.json; fi
+python3 -c "import json; d=json.load(open('dates.json')); v='$DATE'; [d['dates'].insert(0,v) if v not in d['dates'] else None]; d['dates']=d['dates'][:365]; json.dump(d,open('dates.json','w'),indent=2); print('Updated dates.json')"
+grep -q "^| $DATE |" archive.md 2>/dev/null || echo "| $DATE | [report](./daily/$DATE/report.md) / [HTML](./daily/$DATE/index.html) |" >> archive.md
+F=$(python3 -c "import json; d=json.load(open('dates.json')); print(d['dates'][0] if d['dates'] else '')" 2>/dev/null)
+cat > index.html << HEND
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><title>Daily Tech Briefing</title>
+<style>body{font-family:-apple-system,sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.6}
+h1{color:#1a1a2e;border-bottom:3px solid #e94560;padding-bottom:10px}
+.card{background:white;border-radius:8px;padding:20px;margin:15px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1)}
+.latest{border-left:4px solid #e94560}a{color:#0f3460}.stats{color:#666;font-size:0.9em}</style></head><body>
+<h1>Daily Tech Multi-Source Briefing</h1>
+<div class="card"><p>6 sources: AI News, GitHub Trending, Hacker News, Quora, Tech Media, Medium</p></div>
+HEND
+if [ -n "$F" ]; then echo '<div class="card latest"><h3><a href="./daily/'"$F"'/index.html">'"$F"' report</a></h3></div>' >> index.html; fi
+echo '<h2>Archive</h2><p><a href="./archive.md">View all</a></p><hr><p class="stats">Auto-generated</p></body></html>' >> index.html
+git add -A && git commit -m "daily: $DATE" 2>/dev/null || true
+git push origin main 2>/dev/null && echo "Pushed" || echo "Push skipped"
+echo "=== Deploy complete for $DATE ==="

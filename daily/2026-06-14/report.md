@@ -1,0 +1,116 @@
+# 📡 每日科技多源日报 — 2026-06-14(星期日)
+
+> 整合 6 大数据源 · AI 生成 · 仅供参考
+
+━━━ 🔥 TOP 5 推荐 ━━━
+
+**1.** [SpaceX 上市首日暴涨 19%，马斯克成全球首位万亿美元富豪](https://www.theverge.com/2026/6/12/spacex-ipo)
+SpaceX 在纳斯达克上市，发行价 $135，开盘 $150，收报 $160.95。市值突破 $2.1 万亿，成为全球第六大上市公司。马斯克个人净资产突破 $1 万亿，成全球首位万亿级富豪。机构分析认为，星链卫星互联网和商业航天前景推动估值飙升。
+🔥9 💡8 🚀10 👨‍💻7 📢10
+
+**2.** [Anthropic 最强大模型遭美国政府限制，亚马逊 CEO 被指背后推动](https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578)
+美国政府对 Anthropic 的 Mythos / Fable 5 模型实施出口管制。WSJ 披露，亚马逊 CEO Andy Jassy 此前与美方官员会面提出关切。此事引发 AI 安全与地缘政治博弈的广泛讨论。
+🔥10 💡9 🚀6 👨‍💻9 📢9
+
+**3.** [Jeff Bezos 的 AI 公司 Prometheus 完成 $120 亿 B 轮融资，剑指人工通用工程师](https://techcrunch.com/2026/06/prometheus-12b-funding)
+Prometheus 由 Jeff Bezos 创立，目标打造能完成物理世界复杂任务的"人工通用工程师"，覆盖机器人、药物设计、制造等领域。本轮为 AI 领域史上最大单轮融资之一，贝索斯以真金白银押注 AI+物理世界融合。
+🔥8 💡10 🚀9 👨‍💻8 📢8
+
+**4.** [GitHub 趋势：AI Agent 技能框架全面爆发](https://github.com/trending)
+GitHub Trending 上 AI Agent 相关项目全面爆发：obra/superpowers（226K stars，Agentic skills 框架）日增 931 星；addyosmani/agent-skills（58K stars，AI coding agent 工程技能）日增 1,507 星登顶；NVIDIA/SkillSpector（日增 809 星）用于 AI Agent 安全扫描。
+🔥9 💡8 🚀8 👨‍💻10 📢7
+
+**5.** [苹果推出全新 Siri AI：实测竟然真的能用了](https://www.theverge.com/2026/6/siri-ai-apple-review)
+WWDC 2026 上苹果发布搭载 Siri AI 的 macOS 27 Golden Gate 和 iOS 27。The Verge 实测称 Siri AI "基础但能用"——对苹果来说已是重大突破。新 Siri 知道何时保持沉默，AI 照片编辑工具也获好评。欧盟因 DMA 争议暂未获得 Siri AI 支持。
+🔥8 💡7 🚀7 👨‍💻8 📢8
+
+━━━ 📊 各源快览 ━━━
+
+## 🤖 AI 资讯
+
+- [Anthropic 最强大模型遭美国政府出口管制](https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578) — 亚马逊 CEO 被指背后推动
+- [OpenAI 遭多州总检察长调查](https://techcrunch.com/2026/06/openai-state-ag-investigation) — 监管压力持续升级
+- [GLM 5.2 发布](https://twitter.com/jietang/status/2065784751345287314) — 智谱 AI 最新版本，HN 220 点讨论
+- [AI 编码低成本方案：RTX 5080+3090 跑 Qwen 3.6 达 80 Tok/s](https://imil.net/blog/posts/2026/rtx-5080-+-rtx-3090-setup-80+-tok-s-on-qwen-3.6-27b-q8/) — 消费级 GPU 本地运行前沿模型
+- [毕马威因 AI 幻觉撤回 AI 报告](https://techcrunch.com/2026/06/kpmg-ai-hallucination-report) — AI 可靠性仍是最大障碍
+- [Meta AI 部门被工程师形容为 soul-crushing gulag](https://techcrunch.com/2026/06/meta-ai-gulag) — 人才与文化困境凸显
+
+## 💻 GitHub Trending
+
+- [obra/superpowers](https://github.com/obra/superpowers) — 226,906 stars (+931) - Agentic skills 框架与软件开发方法论
+- [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — 58,314 stars (+1,507) - AI 编码代理工程技能集
+- [apple/container](https://github.com/apple/container) — 36,264 stars (+1,471) - 在 Mac 上创建运行 Linux 容器
+- [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) — 4,406 stars (+809) - AI Agent 技能安全扫描
+- [LMCache/LMCache](https://github.com/LMCache/LMCache) — 8,879 stars - LLM KV Cache 加速层
+- [andrewyng/aisuite](https://github.com/andrewyng/aisuite) — 14,093 stars - 多 GenAI 统一接口
+- [kenn-io/agentsview](https://github.com/kenn-io/agentsview) — 2,350 stars - 编码代理本地会话智能分析
+- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) — 140,293 stars
+
+## 🗞 Hacker News 热榜
+
+- [1. 人口普查局禁止统计产品添加噪声干扰](https://desfontain.es/blog/banning-noise.html) — 641 pts
+- [2. 亚马逊CEO会晤美官员后 Anthropic 模型遭限制](https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578) — 407 pts
+- [3. Every Frame Perfect: UI 动画性能深度分析](https://tonsky.me/blog/every-frame-perfect/) — 435 pts
+- [4. 胰腺癌治疗或发现癌症主开关](https://economist.com/science-and-technology/2026/06/12/treating-pancreatic-tumours-may-have-revealed-cancers-master-switch) — 255 pts
+- [5. GLM 5.2 发布](https://twitter.com/jietang/status/2065784751345287314) — 220 pts
+- [6. AI OSS 工具 TensorZero 融资 7.3M 后仓库被归档](https://github.com/tensorzero/tensorzero) — 221 pts
+- [7. Google 用退役手机构建低碳计算平台](https://research.google/blog/a-low-carbon-computing-platform-from-your-retired-phones/) — 216 pts
+- [8. AI 编码不破产全攻略](https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/) — 188 pts
+- [9. Pyodide 314.0: Python 包可发布 WebAssembly wheels 到 PyPI](https://blog.pyodide.org/posts/314-release/) — 26 pts
+- [10. Show HN: Paca — 轻量级 Jira 替代，面向人-AI 协作](https://github.com/Paca-AI/paca) — 124 pts
+
+## 🌐 科技媒体
+
+### TechCrunch
+- [毕马威因幻觉撤回 AI 报告](https://techcrunch.com/2026/06/kpmg-ai-hallucination-report)
+- [OpenAI 遭多州总检察长调查](https://techcrunch.com/2026/06/openai-state-ag-investigation)
+- [Anthropic 安全警告反效果：政府关闭其最强 AI](https://techcrunch.com/2026/06/anthropic-fable-mythos-shutdown)
+- [贝索斯 Prometheus 完成 120 亿美元 B 轮融资](https://techcrunch.com/2026/06/prometheus-12b-funding)
+- [Meta AI 部门被工程师形容为 soul-crushing gulag](https://techcrunch.com/2026/06/meta-ai-gulag)
+
+### The Verge
+- [SpaceX 上市：人类首位万亿富翁诞生](https://www.theverge.com/2026/6/12/spacex-ipo)
+- [Siri AI 上手体验：竟然真的能用了](https://www.theverge.com/2026/6/siri-ai-apple-review)
+- [苹果新 AI 照片编辑工具评测](https://www.theverge.com/2026/6/apple-ai-photo-editing)
+- [Anthropic 切断 Fable 5 / Mythos 5 高级模型访问](https://www.theverge.com/2026/6/anthropic-fable-mythos-cutoff)
+- [Prometheus 剑指人工通用工程师](https://www.theverge.com/2026/6/prometheus-artificial-general-engineer)
+
+### 36kr
+- [微信 agent 发出英雄令，互联网半壁江山响应](https://36kr.com/p/3845399354870020)
+- [美团发布 AI 浏览器 Tabbit 1.0](https://36kr.com/newsflashes/3845715167873543)
+- [小鹏机器人核心产品一号位施晓鑫离职](https://36kr.com/p/3843971153267208)
+- [唐文斌原力灵机并购物流机器人公司](https://36kr.com/p/3845196412193284)
+- [贝索斯 AI 公司 Prometheus 完成 120亿美元 B轮融资](https://eu.36kr.com/zh/p/3518938465770373)
+- [2026 AI Agent 六大趋势深度解读](https://eu.36kr.com/zh/p/3518938465770373)
+
+### 钛媒体
+- [端侧 AI 三强对决：苹果认输、谷歌死磕、中国堆参数](https://www.tmtpost.com)
+- [SpaceX 上市首日收涨超 19%，马斯克成首位万亿美元富豪](https://www.tmtpost.com)
+- [DeepSeek 首轮融资约 70 亿美元，腾讯与宁德时代入局](https://www.tmtpost.com)
+- [中央网信办开设涉 AI 应用乱象举报专区](https://www.tmtpost.com)
+
+━━━ 💡 趋势洞察 ━━━
+
+### 本周主题：AI Agent 全面爆发——从工具到生产系统的临界点
+
+本周科技圈最核心的信号：**AI Agent 正在从概念验证进入企业级生产部署**。
+
+**1. AI 编码代理迎来基础设施化**
+GitHub Trending 上三个标志性项目：obra/superpowers（Agentic 技能框架）、addyosmani/agent-skills（工程技能集）和 NVIDIA/SkillSpector（安全扫描器），说明 AI 编码代理已形成自己的工具链、最佳实践和安防体系。这是技术走向成熟的必经之路。
+
+**2. 资本疯狂涌入 Agent 赛道**
+Jeff Bezos 的 Prometheus（$12B B 轮）、Anthropic 传出 $65B 融资、DeepSeek 约 $70 亿美元首轮融资——AI Agent 不再只是创业故事，而是人类有史以来资本最密集的技术赛道。CB Insights 报告显示，2025年最火爆的投融资热点一半来自 Agent 概念。
+
+**3. 地缘政治正在重塑 AI 格局**
+亚马逊 CEO 与美方官员会晤后 Anthropic 模型遭限制，标志着 AI 竞争已从市场层面升级到国家安全层面。模型出口管制、政府审查、数据主权——这些"非技术因素"正在成为 AI 公司的核心风险变量。
+
+**4. 苹果终于交出一份能用的 AI 答卷**
+Siri AI 实测被评价为"基础但可用"，对苹果意义重大。在 Google Gemini 和 OpenAI ChatGPT 的双重挤压下，苹果选择了"克制路线"——不追求参数竞赛，强调设备端智能、隐私保护和场景化体验。
+
+**5. 从码代码到指挥代码：工程师角色的根本转变**
+Anthropic 最新报告指出，软件工程师正从"写代码的人"变成"编排 AI 智能体的人"。约 27% 的 AI 辅助工作是"如果没有 AI 就根本不会去做"的任务。未来"只会写代码"的程序员会消失，取而代之的是"知道该做什么"的架构师和决策者。
+
+---
+
+⭐ 数据源：GitHub Trending · Hacker News · Web Search · TechCrunch · The Verge · 36氪 · 钛媒体
+🤖 由 Hermes Agent (Nous Research) 自动生成 · 2026-06-14
