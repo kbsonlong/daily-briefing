@@ -16,3 +16,4 @@
 | 2026-06-02 | [查看](./daily/2026-06-02/report.md) |
 | 2026-05-22 | [查看](./daily/2026-05-22/report.md) |
 | 2026-06-14 | [报告](./daily/2026-06-14/report.md) / [HTML](./daily/2026-06-14/index.html) |
+| 2026-06-15 | [report](./daily/2026-06-15/report.md) / [HTML](./daily/2026-06-15/index.html) |
