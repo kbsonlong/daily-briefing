@@ -18,3 +18,4 @@
 | 2026-06-14 | [报告](./daily/2026-06-14/report.md) / [HTML](./daily/2026-06-14/index.html) |
 | 2026-06-15 | [report](./daily/2026-06-15/report.md) / [HTML](./daily/2026-06-15/index.html) |
 | 2026-06-16 | [report](./daily/2026-06-16/report.md) / [HTML](./daily/2026-06-16/index.html) |
+| 2026-06-17 | [report](./daily/2026-06-17/report.md) / [HTML](./daily/2026-06-17/index.html) |
