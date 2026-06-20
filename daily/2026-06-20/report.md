@@ -2,15 +2,15 @@ Daily Tech Report - 2026-06-20(Saturday)
 
 ===== TOP 5 =====
 
-1. Anthropic 0B Revenue Run Rate + Claude Code .5B ARR
+1. Anthropic $30B Revenue Run Rate + Claude Code $2.5B ARR
    https://augusto.digital/insights/blogs/monthly-llm-news-june-2026
-   Anthropic CEO disclosed 0B annualized revenue, 80x quarterly growth.
-   Claude Code reached .5B ARR in 9 months. Enterprise subs quadrupled.
+   Anthropic CEO disclosed $30B annualized revenue, 80x quarterly growth.
+   Claude Code reached $2.5B ARR in 9 months. Enterprise subs quadrupled.
    Score: POP9 TEC8 ENT10 DEV8 VIR9 = 44
 
 2. Google I/O 2026: Gemini 3.5 Flash + Gemini Spark Agent
    https://www.theverge.com/archives/ai-artificial-intelligence/2026/6/7
-   Google launched Gemini 3.5 Flash (4x speed, .5/M token),
+   Google launched Gemini 3.5 Flash (4x speed, $1.5/M token),
    Gemini Spark personal agent, and agentic dev platform.
    Score: POP9 TEC9 ENT8 DEV9 VIR8 = 43
 
@@ -76,11 +76,11 @@ TECH MEDIA
 ===== TREND INSIGHTS =====
 
 1. Agent Commercialization Inflection Point
-   Anthropic 0B and Claude Code .5B ARR prove agents are real enterprise
+   Anthropic $30B and Claude Code $2.5B ARR prove agents are real enterprise
    revenue generators. 69% of execs expect AI agent transformation.
 
 2. Token Economy Price War
-   Google Gemini 3.5 Flash at .5/M, MiniMax at /bin/bash.3/M. Nvidia pitches
+   Google Gemini 3.5 Flash at $1.5/M, MiniMax at $0.3/M. Nvidia pitches
    Token Factory narrative turning data centers into token mints.
 
 3. Super App vs Open Ecosystem
@@ -89,7 +89,7 @@ TECH MEDIA
 
 4. China AI Independence Accelerates
    GLM-5 price hike, MiniMax efficiency leadership, Kimi valuation
-   surges 6x to 0B, Unitree R1 robot at 9,900 democratizing robotics.
+   surges 6x to $30B, Unitree R1 robot at $39,900 democratizing robotics.
 
 5. Infrastructure Bottleneck Remains
    Huang says chip shortage through 2030. Goldman/JPM explore GPU futures.
