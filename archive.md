@@ -21,3 +21,4 @@
 | 2026-06-17 | [report](./daily/2026-06-17/report.md) / [HTML](./daily/2026-06-17/index.html) |
 | 2026-06-19 | [report](./daily/2026-06-19/report.md) / [HTML](./daily/2026-06-19/index.html) |
 | 2026-06-28 | [report](./daily/2026-06-28/report.md) / [HTML](./daily/2026-06-28/index.html) |
+| 2026-07-01 | [report](./daily/2026-07-01/report.md) / [HTML](./daily/2026-07-01/index.html) |
