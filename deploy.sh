@@ -79,7 +79,8 @@ if [ ! -f "$ARCHIVE" ]; then
 fi
 if ! grep -q "$DATE" "$ARCHIVE" 2>/dev/null; then
     # Insert after header
-    sed -i "3i| $DATE | [📄 日报](./daily/$DATE/) |" "$ARCHIVE"
+    # Insert entry after table header (macOS/BSD sed compatible)
+    { echo "| $DATE | [📄 日报](./daily/$DATE/) |"; tail -n +4 "$ARCHIVE"; } > "$ARCHIVE.tmp" && mv "$ARCHIVE.tmp" "$ARCHIVE"
 fi
 
 # Initialize git repo if needed
