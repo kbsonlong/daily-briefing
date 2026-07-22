@@ -1,0 +1,71 @@
+📡 每日科技多源日报 — 2026-07-22(星期三)
+
+🔥 TOP 5 推荐
+
+1. [Google 发布 Gemini 3.6 Flash / 3.5 Flash Cyber 网络安全模型](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/) — Google 一口气发布三款新模型：最强的 Gemini 3.6 Flash、面向网络安全微调的 Gemini 3.5 Flash Cyber，以及轻量版 Flash-Lite。直接对标 OpenAI 与 Anthropic。HN 596 分 / 474 条评论热度爆表。 — 评分🔥9💩9🚀8👨‍💻9📨8
+
+2. [Kimi K3 综合能力与 Anthropic Fable 持平，双双达到 SoTA](https://fireworks.ai/blog/kimik3-fable) — 月之暗面 Kimi K3 在 Fireworks 评测中与 Anthropic Fable 并列 SoTA，此前其发布直接引发美股 AI 板块 72 小时蒸发 4700 亿美元。钒媒体、36kr、HN 三源同时报道。 — 评分🔥10💩9🚀9👨‍💻8📨10
+
+3. [《深入理解 AI Agent：设计原理与工程实践》全书开源](https://github.com/bojieli/ai-agent-book) — 李博杰所著 AI Agent 系统书籍开源，含全书正文、编译版 PDF 及按章配套代码。GitHub Trending 今日第 1，单日斩获 4,624 Stars，开发者社区反响热烈。 — 评分🔥8💩9🚀7👨‍💻10📨7
+
+4. [OpenAI 与 Hugging Face 模型评测期间安全事件披露](https://openai.com/index/hugging-face-model-evaluation-security-incident/) — OpenAI 官方披露在模型评测过程中遭遇的安全事件细节，引发行业对 AI 供应链安全的深度讨论。HN 今日热度第 1（623 分 / 419 评论）。 — 评分🔥8💩7🚀6👨‍💻8📨8
+
+5. [Alphabet 将 Gemini 架构焊死进 Frozen v2 芯片，能效碎压 TPU 十倍](https://www.36kr.com) — Google 将 Gemini 架构直接嵌入定制芯片 Frozen v2，算力效率提升 6-10 倍，标志着 AI 竞赛从堆规模转向拼效率。36kr 与钒媒体联合报道。 — 评分🔥7💩10🚀8👨‍💻7📨7
+━━━ 📊 各源快览 ━━━
+
+🤖 AI 资讯
+• [Google 发布三款 Gemini 新模型，Flash Cyber 专攻网络安全](https://www.nytimes.com/2026/07/21/technology/google-ai-cybersecurity-gemini.html)
+• [OpenAI 向美国政府提议出让 5% 股权，价值约 426 亿美元](https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026)
+• [ChatGPT 正式上线广告系统 Advertise in ChatGPT](https://ads.openai.com/)
+• [DeepSeek 自研 AI 推理芯片，中国大模型价格比美国便宜 90%](https://www.tmtpost.com)
+• [MiniMax 计划推出参数规模 2.7 万亿大模型](https://www.tmtpost.com/column/3882035)
+• [智谱唐杰内部信宣布开启 Touch High 摸高计划](https://www.tmtpost.com/column/6916385)
+
+💻 GitHub Trending（今日 Star 新增）
+• [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) — 深入理解 AI Agent 开源全书 — Star 4,624 today
+• [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) — 免费 AI 网关 268+ 提供商统一接入 — Star 2,034 today
+• [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) — 本地代码智能图谱 赋能 MCP 与 CLI — Star 1,925 today
+• [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — 让 Coding Agent 输出更友好的 ADHD 技能 — Star 1,866 today
+• [oblien/openship](https://github.com/oblien/openship) — 自托管部署平台 — Star 1,562 today
+• [koala73/worldmonitor](https://github.com/koala73/worldmonitor) — 实时全球情报仪表盘 — Star 1,295 today
+• [chrislgarry/Apollo-11](https://github.com/chrislgarry/Apollo-11) — 阿波罗 11 号制导计算机原始源码 — Star 1,235 today
+• [every-app/open-seo](https://github.com/every-app/open-seo) — 开源 Semrush Ahrefs 替代品 — Star 849 today
+• [1jehuang/jcode](https://github.com/1jehuang/jcode) — 最强代码 Agent 框架 Rust — Star 843 today
+• [schollz/croc](https://github.com/schollz/croc) — 简单安全的跨设备文件传输 — Star 361 today
+
+🗞 Hacker News (Top / Show / Ask)
+• [OpenAI and Hugging Face address security incident during model evaluation](https://openai.com/index/hugging-face-model-evaluation-security-incident/) — 623 pts / 419 comments
+• [Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/) — 596 pts / 474 comments
+• [FreeInk: Open ecosystem for e-readers](https://freeink.org/) — 375 pts / 90 comments
+• [Drawing the Mona Lisa with GPT-5.6 Claude Gemini and Grok](https://news.ycombinator.com/item?id=40185522) — 82 pts
+• [Kimi K3 Is Competitive with Fable SoTA](https://fireworks.ai/blog/kimik3-fable) — 214 pts / 118 comments
+• [Advertise in ChatGPT](https://ads.openai.com/) — 272 pts / 271 comments
+• [Jack Dorsey launches Buzz: team chat + AI agents + Git hosting](https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git) — 221 pts / 204 comments
+• [Apple defeats liability for not scanning iCloud for CSAM](https://blog.ericgoldman.org/archives/2026/07/apple-defeats-liability-for-not-scanning-icloud-for-csam-but-the-judge-was-not-pleased-amy-v-apple.htm) — 332 pts / 307 comments
+• [VPNs are lawful technical tools says EU Court](https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling) — 348 pts / 61 comments
+• [A digestion of the Jacobian conjecture counterexample by Terence Tao](https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/) — 135 pts
+
+❓ Quora 热议
+• [What are the best ways to learn building AI agents in 2026?](https://www.quora.com/What-are-the-best-ways-to-learn-building-AI-agents-in-2026) — 从零搭建 AI Agent 的最佳学习路径讨论
+
+🌐 科技媒体
+• [谷歌密谋焊死 Gemini 神秘芯片曝光 能效碎压 TPU 十倍](https://www.36kr.com)
+• [90% 行业落地智能体死在 Demo 里 剩下 10% 靠什么活下来](https://www.tmtpost.com/column/3882035)
+• [星环科技发布 GPU 原生数据库 试水 AI Agent 数据底座](https://www.tmtpost.com)
+• [北京下半年将布局 Token 工厂 力争新增智能算力 5 万 P](https://www.tmtpost.com/nictation)
+• [300 万粉丝女神全是 AI 合成 伪造孤儿院跨国假慈善一夜塌房](https://www.36kr.com)
+• [广东省 309 家数据中心上半年用电量同比大增 21.15%](https://www.tmtpost.com/nictation)
+• [OpenAI 董事长 AI token 计费问题源于市场未成熟 未来趋势按结果付费](https://www.tmtpost.com/nictation)
+
+━━━ 💡 趋势洞察 ━━━
+
+【模型军备竞赛进入效率时代】
+今天的信号异常清晰：Google 将 Gemini 架构直接刻进芯片（Frozen v2），能效提升 6-10 倍；Gemini 3.6 Flash 在编码和金融任务上表现强劲；与此同时月之暗面 Kimi K3 以综合能力全球第三的姿态搵动市场，单次发布引发美股 4700 亿美元蒸发。AI 竞赛的主旋律正从“谁的参数更大”转向“谁的推理更高效、谁的部署更便宜”。中国厂商（DeepSeek 自研芯片、MiniMax 2.7T 模型、智谱摸高计划）正用成本优势和架构创新快速追近第一梯队。
+
+【Agent 生态全面成熟】
+GitHub Trending 今日被 Agent 相关项目霸榜：深入理解 AI Agent 开源书 4624 星、OmniRoute 统一 268+ 模型网关 2034 星、code-review-graph 赋能 MCP 代码图谱 1925 星。Jack Dorsey 的 Buzz 将团队聊天、AI Agent 和 Git 托管融为一体。这一切都在说明：2026 年 Agent 不再是概念验证，而是开发者日常工具链的核心组件。钒媒体的灵魂拷问 90% 行业 Agent 死在 Demo 里 恰恰说明 B 端落地还需要行业纵深和工程耐力。
+
+【商业模式拐点已至】
+OpenAI 上线 ChatGPT 广告系统，同时董事长提出“按结果付费”将取代 token 计费；OpenAI 提议向美国政府出让 5% 股权（约 426 亿美元）。北京宣布建设 Token 工厂。这些信号汇聚成一个判断：AI 的商业化正从“卖 API 调用”进化到“卖业务结果”和“卖算力基础设施”，产业链价值正在重新分配。
+
+━━━ 📡 每日科技多源日报 · 数据源：AI资讯 / GitHub Trending / Hacker News / Quora / 科技媒体(36kr 钒媒体) / Medium(本次跳过) ━━━
