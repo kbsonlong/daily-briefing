@@ -1,0 +1,78 @@
+━━━ 📡 每日科技多源日报 — 2026-07-29(星期三) ━━━
+
+🔥 TOP 5 推荐
+
+1. [Kimi K3 全面开源：2.8万亿参数，全球首个开放权重的3T级模型](https://m.sohu.com/a/1055866835_260616) — 月之暗面7月27日上传完整权重至HuggingFace，总参数2.8T/激活1040亿/100万token上下文，评测全球第三(仅次于Claude Fable 5与GPT-5.6 Sol)。华为昇腾、阿里云真武M890超节点均Day0适配。中国开源模型已占OpenRouter token用量46.4%，超越美国的35.7%。 — 评分🔥10 💡10 🚀10 🔧10 📢10
+   推荐理由：本周AI领域最具颠覆性事件，开源 vs 闭源格局发生结构性变化，政策、资本、技术三重博弈同时爆发。
+
+2. [Claude 发现真实密码学弱点：Anthropic 安全研究](https://www.anthropic.com/research/discovering-cryptographic-weaknesses) — Anthropic 展示 Claude 自主发现真实密码算法中未知弱点的能力，标志着AI在安全研究领域从"辅助"迈向"自主发现"。 — 评分🔥8 💡10 🚀7 🔧9 📢8
+   推荐理由：AI用于密码学攻击/防御的前沿实证，引发"AI红队工具化"的深度安全讨论，HN 170+热度。
+
+3. [Kimi K3 架构深度解读：Sebastian Raschka 技术笔记](https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html) — 知名LLM研究者拆解 K3 的 KDA 混合线性注意力、注意力残差、896专家MoE仅激活16个等架构创新，解读其如何在算力受限下实现2.5倍扩展效率。 — 评分🔥9 💡10 🚀8 🔧10 📢7
+   推荐理由：理解3万亿参数模型如何在工程上落地的最佳技术文献，开发者必读。
+
+4. [GitHub: affaan-m/ECC — Agent 性能优化框架 (⭐234K, +636/天)](https://github.com/affaan-m/ECC) — 面向AI Agent的测试/优化框架，提供Skills、Instincts等抽象，本周GitHub Trending榜首，星标超23万。 — 评分🔥9 💡9 🚀8 🔧10 📢7
+   推荐理由：Agent工程化基础设施的代表性项目，反映"Agent运维/可观测性"已成刚需。
+
+5. [GitHub: bradautomates/claude-video — 让 Claude 看视频 (+988⭐/天)](https://github.com/bradautomates/claude-video) — 通过 /watch 命令让Claude下载、提取并理解任意视频内容，日增星标近千，MCP工具生态持续爆发。 — 评分🔥8 💡8 🚀7 🔧9 📢8
+   推荐理由：展示AI多模态工具链的可组合性，小而美的MCP项目验证"工具增强"路线的生命力。
+
+━━━ 📊 各源快览 ━━━
+
+🤖 AI 资讯
+• [N8n: 2026年AI Agent开发工具需要重新认知](https://blog.n8n.io/we-need-re-learn-what-ai-agent-development-tools-are-in-2026) — Google Opal、OpenAI Agent Builder、微软Studio Copilot入局可视化Agent开发
+• [LangChain: Agent工程现状报告](https://www.langchain.com/state-of-agent-engineering) — 1340份调研：59.8%仍依赖人工审核，LLM-as-judge占53.3%
+• [MIT: EnCompass 让AI Agent搜索效率提升15-40%](https://news.mit.edu/2026/helping-ai-agents-search-to-get-best-results-from-llms-0205) — 双层beam search算法，代码量减少80%
+• [36氪: 全球大模型调用量前五均为中国产品，小米MiMo-V2.5登顶](https://www.36kr.com) — 国产模型在落地流量上反超，硬核推理仍有小幅代差
+• [36氪: 微软新模型踩翻Mythos、价格砍半，拉联盟组AI安全](https://www.36kr.com) — GPT失控被索赔1亿美元，微软推出MAI-Cyber-1-Flash安全模型
+• [The Verge: Anthropic CEO 回应开源争议](https://www.theverge.com) — 英伟达牵头25家公司联名支持开放权重，OpenAI/Google/Anthropic未在首批名单
+
+💻 GitHub Trending (今日)
+• [pascalorg/editor](https://github.com/pascalorg/editor) — ⭐18.7K (+341/天) 创建分享3D建筑项目 [TypeScript]
+• [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) — ⭐26.1K (+180/天) Jenkins自动化服务器 [Java]
+• [moeru-ai/airi](https://github.com/moeru-ai/airi) — ⭐44.7K (+797/天) 自托管AI伴侣，灵魂容器 [TypeScript]
+• [andrewyng/aisuite](https://github.com/andrewyng/aisuite) — ⭐15.7K (+62/天) 统一多生成式AI接口 [Python]
+• [affaan-m/ECC](https://github.com/affaan-m/ECC) — ⭐234.8K (+636/天) Agent性能优化框架 [JavaScript]
+• [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) — ⭐7.2K (+227/天) 本地语音Agent开源模型 [Python]
+• [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — ⭐11.3K (+423/天) PDF技术书转Claude Code技能 [Python]
+• [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre) — ⭐3.4K (+607/天) 轻量云原生GIS平台 [TypeScript]
+• [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) — ⭐9.6K (+309/天) 系统化交易资源大全 [Python]
+• [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) — ⭐5.2K (+46/天) AI Agent治理工具包 [Python]
+• [yorukot/superfile](https://github.com/yorukot/superfile) — ⭐21.5K (+662/天) 现代终端文件管理器 [Go]
+• [bradautomates/claude-video](https://github.com/bradautomates/claude-video) — ⭐12.1K (+988/天) 让Claude看懂任意视频 [Python]
+
+🗞 Hacker News (热门)
+• [Substack writers, you need a website](https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/) — ⭐394 💬203
+• [Codex Security (OpenAI)](https://github.com/openai/codex-security) — ⭐305 💬75
+• [Kimi K3 Architecture Overview and Notes](https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html) — ⭐291 💬37
+• [Discovering Cryptographic Weaknesses with Claude](https://www.anthropic.com/research/discovering-cryptographic-weaknesses) — ⭐170 💬113
+• [Zig Incremental Compilation Internals](https://mlugg.co.uk/posts/incremental-compilation-internals/) — ⭐184 💬132
+• [Steel Bank Common Lisp version 2.6.7](https://sbcl.org/all-news.html?2.6.7) — ⭐189 💬79
+• [Half-Life ported to Mac OS 9](https://mac-classic.com/news/half-life-ported-to-mac-os-9/) — ⭐121 💬45
+• [Hubbele: 开源笔记App，为你的Agent而设计](https://www.hubble.md/) — ⭐3
+
+🌐 科技媒体
+• [长鑫科技上市日登顶A股市值，全球存储板块一夜惊魂](https://www.36kr.com) — 国产存储芯片震动全球
+• [携程被罚51.79亿，酒店未必自由房价难大降](https://www.36kr.com) — 反垄断重锤落下
+• [瑞幸打赢泰国瑞幸商标案，获赔近2000万元创泰国知识产权纪录](https://www.36kr.com)
+• [Kando AI完成数千万种子轮，做"决策领域的Cursor"](https://www.36kr.com) — 从信息数字化到决策自进化
+• [英伟达考虑为OpenAI俄亥俄数据中心提供2500亿美元融资担保](https://techstartups.com/2026/07/27/top-tech-news-today-july-27-2026-anthropic-monday-com-moonshot-ai-nvidia-openai-more) — 史上最大AI基建投资
+• [Apple起诉OpenAI窃取商业机密：400+前苹果员工在OpenAI](https://techcrunch.com) — 苹果对OpenAI提起诉讼，时机正值OpenAI筹备IPO
+
+━━━ 💡 趋势洞察 ━━━
+
+本周科技版图被一条主线贯穿：开源大模型的"破壁时刻"已至，而地缘政治正在加速而非减缓这一进程。
+
+【一、开源 vs 闭源：攻守易势】
+Kimi K3 的全面开源（7月27日权重落地）不是一个孤立技术事件，而是一个标志性拐点。三个数据值得深思：(1) 它是全球首个3万亿参数级开放权重模型，综合智能指数跃居全球第三；(2) 据 OpenRouter 数据，中国开源模型已占该API网关 token 用量的46.4%，超越美国模型的35.7%；(3) 英伟达牵头25家美国公司联名支持开放权重——而OpenAI、Anthropic、Google三家却不在首批名单。这意味着"开源/闭源"之争已不再是技术路线分歧，而是撕裂成了"产业联盟 vs 模型实验室"的阵营对立。白宫科技政策办公室指控K3蒸馏Anthropic技术、财政部长放话制裁，但物理现实是：权重一旦上互联网，封禁在技术上已不可行。
+
+【二、Agent 工程化进入"深水区"】
+GitHub Trending 榜单和 HN 热帖共同指向一个趋势：Agent 已经从"能跑起来"转向"如何治理、优化、规模化"。affaan-m/ECC（23万星的Agent性能优化框架）、微软 agent-governance-toolkit（零信任身份+策略执行）、HuggingFace speech-to-speech（本地语音Agent）、bradautomates/claude-video（MCP视频工具）——这些项目横跨"性能到治理到多模态到工具链"全栈。LangChain 的报告也印证：59.8%团队仍依赖人工审核，LLM-as-judge渗透率达53.3%。结论：Agent运维（AgentOps）和治理（Governance）正在成为继模型能力之后的下一战场。
+
+【三、AI安全从"防御"走向"自主攻击/发现"】
+Anthropic 展示 Claude 自主发现真实密码学弱点（HN 170+热度），微软同日发布 MAI-Cyber-1-Flash 安全模型并称"以领先模型50%的成本实现世界级性能"——这两件事叠加，标志着AI安全工具从"被动检测"进入"自主红队"阶段。对创业者：AI驱动的安全产品赛道窗口正在打开，但"AI武器化"的伦理与监管风险也在同步上升。
+
+【四、资本与法律博弈白热化】
+Apple 起诉 OpenAI 窃取商业机密（400+前苹果员工在OpenAI）、GPT"失控"被索赔1亿美元、Anthropic 15亿美元版权和解获批、携程因垄断被罚51.79亿——AI与科技巨头的法律战已成为常态。英伟达考虑2500亿美元担保OpenAI数据中心，则说明算力基建的资本规模已进入"国家战略级"量级。对从业者的启示：技术之外，合规、版权、垄断风险正在成为不可忽视的系统性变量。
+
+📌 一句话总结：开源攻破闭源城墙、Agent进入治理深水区、AI安全走向自主化、资本法律全面开战——2026年AI产业的四条战线同步进入决战期。
