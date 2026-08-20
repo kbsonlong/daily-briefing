@@ -1,0 +1,154 @@
+=== 每日科技多源日报 - 2026-07-11(星期六) ===
+
+TOP 5 推荐
+
+1. OpenAI 发布 GPT-5.6「太阳系」全家桶，Codex 正式并入 ChatGPT
+https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/
+OpenAI 推出 GPT-5.6 Sol Ultra，号称最强编程模型，Coding Agent Index 得分 80，比 Anthropic Fable 5 高 2.8 分，token 消耗不到一半。Codex 独立产品线正式并入 ChatGPT。HN 上 GPT-5.6 Sol Ultra 甚至产出了 Cycle Double Cover 猜想的证明 PDF。
+评分: 热度9 前沿10 创业9 开发者10 传播10
+
+2. 苹果起诉 OpenAI，指控前员工窃取商业机密
+https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/
+Apple 正式对 OpenAI 提起诉讼，指控前员工窃取核心商业机密并带至 OpenAI。HN 3小时爆 353 分 165 评论，引发 AI 行业人才流动与知识产权边界热议。
+评分: 热度10 前沿6 创业7 开发者7 传播10
+
+3. obra/superpowers - Agent 技能框架与方法论 (251,775 stars)
+https://github.com/obra/superpowers
+GitHub Trending 热榜项目，一套完整的 Agentic Skills 框架与软件开发方法论，日增 1,013 stars。同时 mattpocock/skills(164,609 stars, +1,712/天) 和 addyosmani/agent-skills(76,818 stars, +1,116/天) 也强势上榜，标志着 AI 编程 Agent 的 Skills 生态正在爆发。
+评分: 热度8 前沿9 创业8 开发者10 传播8
+
+4. OfficeCLI - 首个为 AI Agent 打造的 Office 套件 (14,425 stars)
+https://github.com/iOfficeAI/OfficeCLI
+让 AI Agent 直接读写、编辑 Word/Excel/PowerPoint 文件，免费开源，单一二进制，无需安装 Office。日增 1,224 stars，TencentDB-Agent-Memory(8,225 stars)也同期上榜，Agent 工具链全面向企业文件操作和长期记忆延伸。
+评分: 热度7 前沿9 创业9 开发者9 传播7
+
+5. 近 90 家新独角兽诞生，AI 基础设施主导 2026 上半年
+https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/
+TechCrunch 联合 Crunchbase/PitchBook 发布：2026 上半年近 90 家创业公司跨过 10 亿美元估值门槛，资本正集中涌入 AI 基础设施(机器人、企业软件、网络安全、半导体、AI 编程平台、云基础设施)，而非简单的 Chatbot 公司。
+评分: 热度8 前沿7 创业10 开发者7 传播8
+
+=== 各源快览 ===
+
+[AI 资讯]
+- GPT-5.6 全量放送，Codex 正式并入 ChatGPT
+  https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/
+- OpenAI 深夜放出 GPT-Live，ChatGPT 终于像真人一样说话 (机器之心)
+  https://www.jiqizhixin.com
+- Anthropic 500 位技术领袖调研：81% 企业 2026 计划部署更复杂 Agent (36氪)
+  https://m.36kr.com/p/3658889094603398
+- Claude 年化收入达 300 亿美元，Claude Code 成为增长引擎
+  https://augusto.digital/insights/blogs/monthly-llm-news-june-2026
+- 2026 AI 应用大展 7 月底登场，聚焦 AI Agent 与 Edge AI
+  https://money.udn.com/money/story/11162/9619430
+- Google Cloud 发布 AI Agent 趋势 2026 报告
+  https://cloud.google.com/resources/content/ai-agent-trends-2026
+- WAIC 2026 将于 7/17-20 上海举行，超 300 款 AI 新品全球首发
+  https://www.163.com/dy/article/L181K2BO0514R9P4.html
+
+[GitHub Trending]
+- obra/superpowers - Agentic Skills 框架 - 251,775 stars (+1,013/天)
+  https://github.com/obra/superpowers
+- mattpocock/skills - 真实工程师的 Agent Skills - 164,609 stars (+1,712/天)
+  https://github.com/mattpocock/skills
+- vercel/next.js - React 框架 - 140,701 stars (+191/天)
+  https://github.com/vercel/next.js
+- microsoft/TypeScript - TypeScript - 109,770 stars (+177/天)
+  https://github.com/microsoft/TypeScript
+- addyosmani/agent-skills - AI 编程 Agent 生产级技能 - 76,818 stars (+1,116/天)
+  https://github.com/addyosmani/agent-skills
+- oven-sh/bun - JS 运行时/打包器 - 94,218 stars (+209/天)
+  https://github.com/oven-sh/bun
+- davila7/claude-code-templates - Claude Code 配置/监控 CLI - 28,764 stars (+118/天)
+  https://github.com/davila7/claude-code-templates
+- iOfficeAI/OfficeCLI - AI Agent 专属 Office 套件 - 14,425 stars (+1,224/天)
+  https://github.com/iOfficeAI/OfficeCLI
+- TencentCloud/TencentDB-Agent-Memory - Agent 四级长期记忆 - 8,225 stars (+123/天)
+  https://github.com/TencentCloud/TencentDB-Agent-Memory
+- wonderwhy-er/DesktopCommanderMCP - Claude 桌面控制 MCP - 7,283 stars (+328/天)
+  https://github.com/wonderwhy-er/DesktopCommanderMCP
+- google-labs-code/stitch-skills - Stitch MCP Agent Skills 库 - 6,739 stars (+117/天)
+  https://github.com/google-labs-code/stitch-skills
+- tailscale/tailscale - WireGuard + 2FA - 33,640 stars (+143/天)
+  https://github.com/tailscale/tailscale
+
+[Hacker News Top]
+- QuadRF can spot drones and see WiFi through my wall (435分, 169评论)
+  https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/
+- Apple sues OpenAI, accuses ex-employees of stealing trade secrets (353分, 165评论)
+  https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/
+- GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture (319分, 259评论)
+  https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf
+- NYC to ban deceptive subscription practices (380分, 201评论)
+  https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban
+- Good Tools Are Invisible (343分, 161评论)
+  https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/
+
+[Hacker News Show]
+- Show HN: Getting GLM 5.2 running on my slow computer (830分, 204评论)
+  https://github.com/JustVugg/colibri
+- Show HN: 18 Words (1,087分, 346评论)
+  https://18words.com/
+- Show HN: Frugon - Find which LLM calls a cheaper model could handle (53分, 10评论)
+  https://github.com/Rodiun/frugon
+- Show HN: Reverse-engineering web apps into agent tools (79分, 30评论)
+  https://news.ycombinator.com/item?id=48847834
+- AI 2040: Plan A (124分, 93评论)
+  https://ai-2040.com/
+
+[Medium 精选]
+- 本期 Medium 邮件源不可用(himalaya 未配置)，已跳过
+
+[科技媒体]
+- 36氪：MiniMax 替整个 AI 行业挨打
+  https://www.36kr.com
+- 36氪：伯南克出山，Anthropic 杀死比赛？
+  https://www.36kr.com
+- 36氪：逆矩阵完成超亿美元融资，通用世界基座模型窗口期已压至 18 个月
+  https://www.36kr.com
+- 36氪：港大教授李弘扬创业做通用全身具身大脑，获真格高榕 IDG 五源等数亿种子轮
+  https://www.36kr.com
+- 机器之心：Loop Engineering 会是 AI 的下个关键词吗？(LeCun 团队提出 AdaJEPA)
+  https://www.jiqizhixin.com
+- 机器之心：Google DeepMind 发布 Nano Banana 2 Lite 与 Gemini Omni Flash
+  https://www.jiqizhixin.com
+- TechCrunch：OpenAI launches GPT-5.6 family with Sol
+  https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/
+- The Verge：Notion 推出 Agents iOS App，接入 ChatGPT/Gemini/Claude
+  https://www.theverge.com/tech
+- The Verge：Amazon Moonraker 项目曝光，Alexa AI 成本高昂
+  https://www.businessinsider.com/amazon-moonraker-project-alexa-agentic-cost-2026-7
+- 新华网：超 300 款 AI 新品将在 WAIC 2026 首发
+  http://jjckb.xinhuanet.com/20260708/fcf3dd53ddfa4e2e820945444620105d/c.html
+- 中国 AI 手机/电脑今年销量有望超非 AI 产品
+  https://m.sohu.com/a/1047156518_123753
+
+[Quora 热议]
+- How will AI agents transform business operations in 2026?
+  https://www.quora.com/How-will-AI-agents-transform-business-operations-in-2026
+- What are the top Agentic AI companies in 2026?
+  https://www.quora.com/What-are-the-top-Agentic-AI-companies-in-2026
+- What are the best ways to learn building AI agents in 2026?
+  https://www.quora.com/What-are-the-best-ways-to-learn-building-AI-agents-in-2026
+
+=== 趋势洞察 ===
+
+本周科技圈三条主线清晰可见：
+
+一、AI 编程 Agent 的「Skills 大爆炸」
+GitHub Trending 前十名中，Agent Skills 类项目占据半壁江山：obra/superpowers(25 万星)、mattpocock/skills(16 万星)、addyosmani/agent-skills(7.7 万星)、OfficeCLI(1.4 万星，日增 1224)。这不是偶然 - 当 GPT-5.6 Sol 在编程基准上达到 80 分新高，当 Codex 并入 ChatGPT 成为统一入口，开发者社区正在快速形成一套「Agent 可复用技能」的标准生态。如同 Docker 之于容器化、npm 之于 JavaScript，Agent Skills 正在成为 AI 编程时代的「包管理」叙事。OfficeCLI 让 Agent 直接操作 Office 文件、TencentDB-Agent-Memory 为 Agent 注入四级长期记忆，工具链正从「能写代码」延伸到「能操作一切」。
+
+二、巨头博弈白热化：Apple vs OpenAI，Anthropic vs OpenAI
+Apple 起诉 OpenAI 窃密事件登顶 HN，折射出 AI 人才争夺战已从暗战走向法庭。与此同时，GPT-5.6 Sol Ultra 不仅在编程上超越 Anthropic Fable 5(80 vs 77.2)，甚至产出了数学猜想的正式证明(Cycle Double Cover Conjecture) - 这是 AI 推理能力从「辅助」走向「创造」的标志性事件。Claude 年化收入达 300 亿美元的消息，则说明这场竞赛的商业 stakes 已经是天文数字。36 氪用「伯南克出山，Anthropic 杀死比赛？」为标题，暗示着前美联储主席的加入可能为 Anthropic 带来新的战略优势。
+
+三、Agent 从「Demo」到「ROI」的拐点已至
+Anthropic 对 500 位技术领袖的调研显示：80% 的企业已从 AI Agent 中获得可衡量的经济回报，81% 计划在 2026 年部署更复杂的 Agent 流程。TechCrunch 数据显示上半年近 90 家新独角兽中，AI 基础设施(机器人、安全、半导体、编程平台)压倒性领先。中国端日词元调用量已突破 140 万亿(3 个月翻倍)，WAIC 2026 将展出发射 300+ 全球首发 AI 产品。从 Show HN 上「Getting GLM 5.2 running on my slow computer」(830 分)的社区热情，到 Notion 推出独立 Agent App、Amazon 投入重金做 Alexa Agent，信号一致：Agent 已过验证期，进入规模化扩张。
+
+一句话总结：AI 编程 Agent 的 Skills 生态正在 GitHub 上野蛮生长，巨头间的专利与人才战争愈演愈烈，而 80% 的企业已经在这场变革中赚到了真金白银 - 2026 年下半年，是 Agent 从概念验证走向企业基础设施的关键窗口。
+
+=== 数据源统计 ===
+AI 资讯(web_search x2) - 8 条
+GitHub Trending - 12 个项目
+Hacker News(Top + Show) - 10 条
+Quora - 3 条
+科技媒体(36氪/机器之心/TechCrunch/The Verge/新华网) - 11 条
+Medium 邮件 - himalaya 未配置，已跳过

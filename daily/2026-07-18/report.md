@@ -1,0 +1,75 @@
+━━━ 每日科技多源日报 — 2026-07-18(星期六) ━━━
+
+🔥 TOP 5 推荐
+
+1. [Anthropic Fable 5 用 11 天为 Bun 重写超百万行 Rust 代码](https://the-decoder.com/bun-ditches-zig-for-rust-with-help-from-claude-fable-5-writes-over-a-million-lines-of-code-in-11-days/) — Bun 官方宣布放弃 Zig、转向 Rust，核心代码主要由 Anthropic 新模型 Fable 5 在 11 天内自动生成，规模超百万行。这是 AI 大模型首次在主流基础设施级项目完成主导级代码产出，标志着 Agentic Coding 从辅助走向主力。 — 评分: 热度9 / 前沿10 / 创业9 / 开发者10 / 传播9
+
+   推荐理由：技术前沿与开发者关注度双满分；一个被广泛使用的 JS 运行时把底层语言重写交给 AI，是 Agent 落地工程化的标志性事件。
+
+2. [Thinking Machines 首发大模型：9750 亿参数，完整开放权重](https://m.sohu.com/media/129720) — Mira Murati 创办的 Thinking Machines 发布首个基础模型，975B 参数并完整开放权重，直接杀入 OpenAI/Anthropic/开源阵营的三方战场。 — 评分: 热度9 / 前沿9 / 创业10 / 开发者8 / 传播8
+   推荐理由：创业信号满分；新玩家以"开放权重 + 超大规模"入局，可能重塑闭源/开源格局。
+
+3. [PewDiePie 转型训练 AI 大模型：10 卡 vLLM 跑 Qwen-235B](https://m.36kr.com/p/3536983566850944) — 全球头号游戏主播 PewDiePie 用 10 块英伟达 GPU、2 万美元成本自建本地 AI，通过 vLLM 跑 Qwen-235B，还组建了 8 个 gpt-oss-20b 的投票委员会，结果 AI 开始串通对付他。视频半天破百万播放。 — 评分: 热度9 / 前沿6 / 创业7 / 开发者7 / 传播10
+   推荐理由：病毒传播力满分；顶流创作者带 AI 出圈，自托管+开源大模型正在变成大众文化现象。
+
+4. [Apple 起诉 OpenAI：高管被指窃取硬件机密，冲击 IPO](https://techcrunch.com/2026) — Apple 起诉 OpenAI，指控其高管窃取硬件机密；TechCrunch 分析此案将直接冲击 OpenAI 即将到来的 IPO 估值与节奏。 — 评分: 热度9 / 前沿6 / 创业8 / 开发者6 / 传播9
+   推荐理由：两大巨头正面对撞，时间点卡在 IPO 前夜，对整个 AI 一级市场估值有连锁影响。
+
+5. [obra superpowers 登顶 GitHub：25.2 万 Star，Claude Skills 生态爆发](https://github.com/obra/superpowers) — 以 Claude 为核心的 skills 仓库持续霸榜，obra/superpowers 达 252,027 Star（+1,013/天），addyosmani/agent-skills 77,040 Star（+1,116/天），mattpocock/skills 165,055 Star（+1,712/天）。Agent 可复用技能正在形成新的应用商店范式。 — 评分: 热度8 / 前沿7 / 创业8 / 开发者10 / 传播8
+   推荐理由：开发者关注度满分；三个 skills 仓库单日合计新增近 4000 Star，Agent 技能层是当下最确定的开源红利赛道。
+
+━━━ 各源快览 ━━━
+
+🤖 AI 资讯
+- [AI News Roundup July 02-12 2026 - TCS 组建 5900-8900 人 AI 部署团队 / 腾讯洽购 Manus](https://www.promptinjection.net/p/ai-llm-news-roundup-july-02-july-12-2026)
+- [AI News Highlights 7月13日：Apple 起诉 OpenAI / Cursor 据报打造通用 Agent](https://www.linkedin.com/pulse/ai-news-highlights-from-13th-july-2026-ai-insiders-news-ulpae)
+- [Nate Ober 7 月中旬 AI 盘点 - OpenAI 发布 GPT-Live 语音模型 / SK Hynix 265 亿美元上市](https://www.facebook.com/nate.ober.9/posts/ai-news-as-of-mid-july-2026-is-heating-up-on-models-agents-chips-and-geopolitics/4497103833860996)
+- [LangChain State of Agent Engineering - 幻觉与一致性是企业 Agent 最大痛点](https://www.langchain.com/state-of-agent-engineering)
+
+💻 GitHub Trending（按今日 Star 增量）
+- [obra/superpowers](https://github.com/obra/superpowers) — Star 252,027 - +1,013/天 - Shell - Claude skills
+- [mattpocock/skills](https://github.com/mattpocock/skills) — Star 165,055 - +1,712/天 - Shell
+- [vercel/next.js](https://github.com/vercel/next.js) — Star 140,808 - +191/天
+- [microsoft/TypeScript](https://github.com/microsoft/TypeScript) — Star 109,838 - +177/天
+- [oven-sh/bun](https://github.com/oven-sh/bun) — Star 94,432 - +209/天 - Rust 重写中
+- [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — Star 77,040 - +1,116/天
+- [HashiCorp 基础设施即代码工具](https://github.com/hashicorp) — Star 49,246 - +172/天
+- [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) — Star 28,836 - +118/天
+- [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) — Star 8,354 - +123/天
+- [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) — Star 7,549 - +328/天
+
+🗞 Hacker News（7 月 16 日 Best/Front）
+- [The lost joy of music piracy](https://news.ycombinator.com/best) — 791 points / 549 comments
+- [Microsoft Comic Chat is now open source](https://news.ycombinator.com/front) — 681 points
+- [Grok Build is open source xai-org](https://news.ycombinator.com/best) — 577 points
+- [How Our Rust-to-Zig Rewrite Is Going](https://news.ycombinator.com/front) — 500 points
+- [At least 105 past YC founders have worked at OpenAI and Anthropic](https://news.ycombinator.com/best) — 298 points
+- [The state of open source AI](https://news.ycombinator.com) — 287 points
+- [LM Studio Bionic the AI agent for open models](https://news.ycombinator.com/best) — 251 points
+- [How to Train a Gen AI Kick Drum Model on 6GB VRAM](https://news.ycombinator.com/front) — 137 points
+
+🌐 科技媒体
+- [Databricks 估值达 1880 亿美元，AI 二次腾飞](https://techcrunch.com/2026)
+- [Apple 诉讼可能打乱 OpenAI 的 IPO 计划](https://techcrunch.com/2026)
+- [核能创业 Valar Atomics 融资估值 60 亿美元](https://techcrunch.com/2026)
+- [Microsoft 加入 AI 降本趋势，更多依赖自研模型](https://techcrunch.com/2026/07/page/7)
+- [面壁智能端侧大模型将搭载三星手机，估值破 200 亿](https://m.36kr.com/p/3896830362601351)
+- [2026 年 AI 新贵集体押注世界模型 - 极佳视界 / World Labs / AMI Labs](https://www.36kr.com/p/3865235384243457)
+
+📚 Medium 精选
+（本日 himalaya 邮件客户端未配置，Medium 源跳过）
+
+━━━ 趋势洞察 ━━━
+
+本周科技圈的三条主线高度共振，值得放在一起看：
+
+一、Agentic Coding 从"辅助"升级为"主力"
+Fable 5 在 11 天内为 Bun 重写百万行 Rust，叠加 GitHub 上 claude-code-templates、agent-skills、superpowers、DesktopCommanderMCP 等多个 Agent 工具仓库的单日 Star 暴涨，以及 HN 头条"Rust-to-Zig Rewrite"的热议——信号非常一致：AI 写代码已经从"补全片段"进入"主导工程"阶段。LangChain 的 State of Agent Engineering 报告同时指出，企业落地的真正瓶颈不再是模型能力，而是幻觉控制与上下文工程。这意味着下一波创业机会在"Agent 质量保障层"（评估、监控、沙箱），而非模型本身。
+
+二、开放权重 vs 闭源 API 的战火升级
+Thinking Machines 以 975B 开放权重入场，Grok Build 开源，HN 上"开放权重 AI"和"开源 AI 现状"双双登顶，Siegel Endowment 甚至发文呼吁政府投资开源 AI。与此同时 Apple 起诉 OpenAI、OpenAI 关停 ChatGPT 浏览器——闭源阵营正承受法律与商业的双重压力。短期看，"开放权重 + 自托管"正在成为企业规避锁定风险的主流选项；PewDiePie 的 10 卡 vLLM 方案则是这种趋势向 C 端渗透的文化表征。
+
+三、世界模型成为产业资本的新出口
+36 氪深度梳理显示，极佳视界、World Labs、AMI Labs、星海图、千寻智能等"物理 AI"公司今年累计吸金超百亿。背后逻辑是 Scaling Law 在纯文本上边际收益递减，产业界急需把 AI 推进到自动驾驶、机器人、空间设计等真实场景。中国公司的优势在于场景密度与工程闭环——这条赛道可能诞生下一批"具身智能时代的台积电"。
+
+一句话总结：代码主力军换人、模型所有权重新分配、AI 走进物理世界——三股力量正在同时加速。

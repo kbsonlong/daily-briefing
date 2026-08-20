@@ -1,0 +1,79 @@
+━━━ 📡 每日科技多源日报 — 2026-07-25(星期六) ━━━
+
+🔥 TOP 5 推荐
+
+1. [Show HN: Echo – 用开源模型达到 Fable 5 水平、成本仅 1/3](https://news.ycombinator.com/item?id=49026810) — Echo 用开源权重模型（open-weight）实现接近 Anthropic Fable 5 的任务表现，调用成本压到三分之一，200 条评论热议"闭源 vs 开源"性价比拐点。— 评分🔥9 💡9 🚀9 🛠10 📢9
+
+2. [Flux 3 及 Flux 3 Mimic：新一代视频动作模型](https://bfl.ai/blog/flux-3) — Black Forest Labs 发布 Flux 3 视频生成大模型及动作模仿变体 Mimic，HN 上双帖合计 586 分、126 条评论，被视为视频生成 Sora 路线的强力竞品。— 评分🔥9 💡10 🚀8 🛠7 📢9
+
+3. [中国 AI「牌都打明了」：WAIC 2026 系统化竞争全景](https://m.36kr.com/p/3905349135472008) — 1100+ 企业、3000+ 展品集中亮相：华为昇腾 950 超节点、曙光 8000 十万卡集群、阿里磐久 AL128 单柜 128 卡，中国 AI 从拼单点参数转向"芯片+互联+模型+智能体+终端"全栈协同，具身智能集体从表演走向生产。— 评分🔥8 💡9 🚀9 🛠8 📢9
+
+4. [创业 founders 联名请愿：别切断中国开源权重 AI](https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992) — 998 分、804 条评论登顶 HN，美国创业者警告封杀中国开源模型（DeepSeek、Kimi 等）将自伤生态、抬高成本，折射开源 vs 地缘博弈的产业张力。— 评分🔥10 💡6 🚀8 🛠9 📢9
+
+5. [Hetzner 正在做 LLM 推理服务](https://sliplane.io/blog/hetzner-inference) — 以极致性价比著称的 Hetzner 杀入 LLM 推理托管，可能重塑中小团队部署成本结构，开发者社区高度关注。— 评分🔥7 💡7 🚀8 🛠9 📢8
+
+━━━ 📊 各源快览 ━━━
+
+🤖 AI 资讯
+• [Weekly AI Wrap（7.13–7.19）：记忆成攻击面，FARMA 伪造 Agent 决策日志](https://www.nextmoca.com/blog/weekly-ai-wrap-july-13-19-2026)
+• [What's coming next for LLMs and AI agents?（Computerworld）](https://www.computerworld.com/article/4148846/whats-coming-next-for-llms-and-ai-agents.html)
+• [AI News Roundup：腾讯洽购 Manus，北京叫停 Meta 20 亿美元收购](https://www.promptinjection.net/p/ai-llm-news-roundup-july-02-july-12-2026)
+• [硅谷调研：2026 年 AI Agent 走向哪（36氪·Anthropic/Material 调研）](https://m.36kr.com/p/3658889094603398)
+• [OpenAI 发布 GPT-5.6：token 处理效率提升 54%](https://www.linkedin.com/pulse/daily-ai-agent-news-summary-july-10-2026-jim-schwoebel-wqhwc)
+
+💻 GitHub Trending（今日）
+• [ruvnet/RuView](https://github.com/ruvnet/RuView) — Rust • ⭐83,450（+875/天）
+• [chrislgarry/Apollo-11](https://github.com/chrislgarry/Apollo-11) — Assembly • ⭐70,468（+766/天）
+• [koala73/worldmonitor](https://github.com/koala73/worldmonitor) — TypeScript • ⭐68,364（+4,131/天，暴涨）
+• [jamiepine/voicebox](https://github.com/jamiepine/voicebox) — TypeScript • ⭐45,582（+565/天）
+• [schollz/croc](https://github.com/schollz/croc) — Go • ⭐37,410（+737/天，文件传输）
+• [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) — Rust • ⭐37,935（+411/天，全栈框架）
+• [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) — C++ • ⭐37,243（+353/天，Wayland 合成器）
+• [dottxt-ai/outlines](https://github.com/dottxt-ai/outlines) — Python • ⭐15,051（+362/天，结构化输出）
+• [dreamhunter2333/cloudflare_temp_email](https://github.com/dreamhunter2333/cloudflare_temp_email) — TypeScript • ⭐10,752（+60/天，临时邮箱）
+• [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — Python • ⭐7,976（+1,682/天）
+• [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) — AI 网关：268+ 供应商、500+ 模型统一端点
+
+🗞 Hacker News（Top/Show）
+• [Writing by hand is good for your brain（Neal Stephenson）](https://news.ycombinator.com/item?id=49022152) — 1362 分 / 620 评
+• [Startup founders urge U.S. not shut off Chinese open weight AI](https://news.ycombinator.com/item?id=49023016) — 998 分 / 804 评
+• [Show HN: Echo – Fable-level results at 1/3 the cost](https://news.ycombinator.com/item?id=49026810) — 417 分 / 200 评
+• [Flux 3](https://news.ycombinator.com/item?id=49031796) — 410 分 / 102 评
+• [I regret migrating to Codeberg](https://news.ycombinator.com/item?id=49021856) — 400 分 / 303 评
+• [What happened to TheNumbers.com](https://news.ycombinator.com/item?id=49024691) — 390 分 / 185 评
+• [Why Software Factories Fail（编码 Agent 工程方法论）](https://news.ycombinator.com/item?id=49023019) — 351 分 / 250 评
+• [It's getting harder to focus every day](https://news.ycombinator.com/item?id=49032660) — 252 分 / 130 评
+• [Flux 3 X Mimic: 视频动作模型](https://news.ycombinator.com/item?id=49033127) — 176 分 / 24 评
+• [Claude Cookbook 官方示例库](https://news.ycombinator.com/item?id=49031409) — 150 分 / 74 评
+• [The day Steve Jobs dissed me in a keynote (2010)](https://news.ycombinator.com/item?id=49033001) — 134 分 / 34 评
+• [Buz：用现代 Zig fork Bun，增量编译 <1s](https://news.ycombinator.com/item?id=49033099) — 87 分 / 59 评
+• [Hetzner 正在做 LLM Inference](https://news.ycombinator.com/item?id=49033087) — 77 分 / 34 评
+• [AMD Instinct MI455X 深度解析](https://news.ycombinator.com/item?id=49032072) — 38 分 / 14 评
+• [Launching Health in ChatGPT](https://news.ycombinator.com/item?id=49033363) — 23 分 / 33 评
+
+📚 Medium 精选
+（本源跳过：himalaya 邮件客户端未配置）
+
+🌐 科技媒体
+• [在 WAIC 2026 暴走三天：今年最火的是 AI 手机 + 具身机器人（36氪）](https://m.36kr.com/p/3903121577182850)
+• [中国 AI，牌都打明了（华商韬略·36氪）](https://m.36kr.com/p/3905349135472008)
+• [带着 AI 去前线：36氪逛透 WAIC 全行业 AI 走向（新浪财经）](https://finance.sina.com.cn/wm/2026-07-21/doc-iniiqquw9223460.shtml)
+• [2026：智能体爆发年（新华网·环球杂志）](https://www.xinhuanet.com/globe/20260402/39ce4b6b703843a6aef41257f02976e0/c.html)
+• [机器之心官网](https://www.jiqizhixin.com)
+
+💬 Quora 热议
+• [How is machine learning evolving in 2026 with autonomous AI systems?](https://www.quora.com/How-is-machine-learning-evolving-in-2026-with-autonomous-AI-systems)
+• [Is learning AI in 2026 worth it for students and freshers?](https://www.quora.com/Is-learning-AI-in-2026-worth-it-for-students-and-freshers)
+• [Stanford Emerging Technology Review 2026: AI](https://setr.stanford.edu/technology/artificial-intelligence/2026)
+
+━━━ 💡 趋势洞察 ━━━
+
+本期三条主线值得关注：
+
+① 开源权重模型迎来"性价比拐点"。Echo 以 1/3 成本逼近 Fable 5 水平登顶 HN，OmniRoute 把 268+ 供应商、500+ 模型收敛到一个端点——开源/混合推理已不只是"够用"，而是在任务质量上正面叫板闭源旗舰。叠加 998 分的"美国创业者反对封杀中国开源 AI"讨论，地缘与技术的张力正倒逼生态选边，开源路线的产业势能在累积。
+
+② AI 叙事重心从"模型空战"转向"系统化落地"。WAIC 2026 的信号很明确：竞争不再是单点比拼参数榜单，而是芯片+互联+模型+智能体+终端的全栈协同（华为昇腾 950 超节点、曙光 8000 十万卡、阿里磐久 AL128）。AI 手机（阶跃 STEPX Neo、努比亚 NaviX Ultra）把智能体塞进系统层，具身机器人从"会跳舞"转向"能干八小时"。Anthropic/Material 调研显示 80% 组织已看到可衡量 ROI，2026 是 Agent 从"可用"迈向"规模化生产力"的分水岭。
+
+③ AI 安全进入"攻击面"新阶段。FARMA 攻击能伪造 Agent 自身决策日志使其"记住"从未做过的安全检查，记忆系统反而让 Agent 更顺从而非更准确——审计日志本身已成为被信任的输入。这提示：Agent 工程化落地时，记忆/日志的可信链路是与能力同等重要的基础设施。
+
+📌 数据源状态：AI 资讯✓ / GitHub✓ / HN✓ / 科技媒体✓ / Quora✓ / Medium✗(himalaya 未配置，已跳过)

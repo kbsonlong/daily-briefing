@@ -1,0 +1,84 @@
+━━━ 📡 每日科技多源日报 — 2026-07-20(星期一) ━━━
+
+🔥 TOP 5 推荐
+
+1. [Moonshot AI 暂停 Kimi K3 新订阅，算力逼近极限](https://x.com/Kimi_Moonshot/status/2078855608565207130) — 月之暗面 7 月 16 日发布的 2.8 万亿参数旗舰 Kimi K3 需求远超预期，48 小时内将算力推至容量上限，官方被迫暂停新订阅、把会员拆为 Kimi Web/App/Work 与 Kimi Code 两档。— 评分🔥9 💨8 🚀9 🛠9 📢9
+   推荐理由：继 Kimi K2 后再次刷新国产 MoE 旗舰纪录，“需求压垮算力”折射出 2026 年大模型从比参数转向比交付能力的拐点；Hacker News、Reddit、X 三平台同步刷屏，是本周最强创业与开发者信号。
+
+2. [阿里巴巴发布 Qwen3-Next-80B-A3B，仅 1/3 参数量对标 Qwen3-235B](https://cybernews.com/ai-news/alibaba-releases-next-generation-model-beating-gemini-flash) — Qwen3-Next-80B（A3B 稀疏激活）以“10 倍能效、1/10 成本”匹配自家 235B 旗舰，并在多基准上超越 Gemini-2.5-Flash-Thinking，主打消费级硬件可部署。— 评分🔥8 💨9 🚀8 🛠10 📢8
+   推荐理由：“小而强 + 开源 + 消费级可跑”的组合，直接挑战闭源闭参数路线；开源社区对 Qwen3-Next 反响热烈，是本周开发者关注度的天花板。
+
+3. [NVIDIA 黄仁勋访日：日本押注 2040 年部署 1000 万台 AI 机器人、$650 亿投资物理 AI](https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit) — 黄仁勋 7/15—16 在东京与日本芯片与产业界密集会晤；日本目标 2040 年在 18 个行业部署 1000 万台 AI 机器人，公私合计 $650 亿投入物理 AI。— 评分🔥8 💨7 🚀9 🛠7 📢8
+   推荐理由：把“具身智能 / 物理 AI”从实验室拉到国家级产业政策，是本周最强的创业信号 🚀；黄仁勋密集日韩行程揭示 GPU 供应链地缘博弈新战线。
+
+4. [GitHub Trending：agent-skills 单日 +1,116 ⭐，mattpocock/skills 单日 +1,712 ⭐](https://github.com/trending/) — “AI Agent 技能/技能包 (skills)” 成为 GitHub Trending 主旋律：agent-skills（JS）已 77k⭐，mattpocock/skills（Shell）16.5 万⭐；同时 claude-code-templates、OfficeCLI、stitch-skills 等 Claude Code 与 MCP 生态项目齐刷榜单。— 评分🔥9 💨8 🚀8 🛠10 📢7
+   推荐理由：榜单几乎被 “agent 技能 + Claude Code / MCP 模板” 占领，印证 AI 编码工具正从“单点助手”走向“可组合技能生态”，是本周开发者关注度 🛠 第一信号。
+
+5. [OpenAI 发布《How Agents Are Transforming Work》：近 1/4 的 Codex 请求指向人类需 1 小时以上才能完成的任务](https://openai.com/index/how-agents-are-transforming-work) — OpenAI 公布 Codex 使用画像：越来越多用户把“30 分钟—8 小时人类工时”的长任务交给 Agent，并随附研究论文《The Shift to Agentic AI》。— 评分🔥8 💨8 🚀8 🛠8 📢7
+   推荐理由：用真实使用数据为“Agentic AI 落地”背书，是本周最权威的“Agent 已成主流工作流”证据。
+
+━━━ 📊 各源快览 ━━━
+
+🤖 AI 资讯
+• [AI News Highlights（7/13）：Apple 起诉 OpenAI 窃取硬件机密 / LangChain OpenWiki 赋予 Agent 可更新记忆 / “第二个 Agent 只负责提醒第一个别忘事” 提升基准 pass 率](https://www.linkedin.com/pulse/ai-news-highlights-from-13th-july-2026-ai-insiders-news-ulpae)
+• [Cursor 据传正开发“不止于写代码”的通用 Agent（邮件/表格/工程）](https://www.linkedin.com/pulse/ai-news-highlights-from-13th-july-2026-ai-insiders-news-ulpae)
+• [Meta 紧急下架“Muse Image”——默认把任意公开 Instagram 账号变成 AI 编辑素材，引发同意权争议](https://www.linkedin.com/pulse/ai-news-highlights-from-13th-july-2026-ai-insiders-news-ulpae)
+• [Thinking Machines Lab 选择“反对全自主 Agent”路线，引发路线之争](https://www.linkedin.com/pulse/ai-news-highlights-from-13th-july-2026-ai-insiders-news-ulpae)
+• [研究者称 AI 下一根 Scaling 轴是“更好的验证 (verification)”](https://www.linkedin.com/pulse/ai-news-highlights-from-13th-july-2026-ai-insiders-news-ulpae)
+• [Moonshot AI 暂停 Kimi K3 新订阅（HN 讨论：3 倍线性注意力 vs 全注意力）](https://news.ycombinator.com/item?id=48969291)
+• [Moonshot AI 官方 X 声明原文](https://x.com/Kimi_Moonshot/status/2078855608565207130)
+• [HuggingFace 7 月安全事件披露](https://llm-explorer.com/static/llm-news)
+• [LLM Stats — 每日 LLM 发布与基准动态](https://llm-stats.com/ai-news)
+
+💻 GitHub Trending（今日）
+• [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills/) — JS · ⭐77,040 · 今日 +1,116
+• [mattpocock/skills](https://github.com/mattpocock/skills/) — Shell · ⭐165,055 · 今日 +1,712
+• [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates/) — Python · ⭐28,836 · 今日 +118
+• [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP/) — MCP 桌面控制
+• [oven-sh/bun](https://github.com/oven-sh/bun/) — JS 运行时（长期霸榜）
+• [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills/) — Google Labs Agent 技能
+• [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory/) — 腾讯云 Agent 记忆
+• [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI/) — Office 命令行 Agent
+• [obra/superpowers](https://github.com/obra/superpowers/) — Agent 超能力包
+• [hashicorp/terraform](https://github.com/hashicorp/terraform/) · [tailscale/tailscale](https://github.com/tailscale/tailscale/) · [vercel/next.js](https://github.com/vercel/next.js/)
+
+🗞 Hacker News（Top/Show/Ask）
+• [Moonshot AI suspends new subscriptions due to Kimi K3 demand](https://news.ycombinator.com/item?id=48969291) — 67 points · 15 comments
+• [AI agents changing enterprise automation in 2026（Quora 跨源热议）](https://www.quora.com/How-are-AI-agents-changing-enterprise-automation-in-2026)
+• [Hacker News 首页实时榜](https://news.ycombinator.com/)
+• [2026 世界人工智能大会 WAIC 7/17—20 举办，300+ 款 AI 产品全球首发](https://www.tmtpost.com/nictation/8032405.html)
+
+📚 Medium 精选
+• 本期跳过：himalaya CLI 未配置（缺失 ~/Library/Application Support/himalaya/config.toml），无法读取 Medium 订阅邮件。已记录，下次修复后恢复。
+
+🌐 科技媒体
+• [钛媒体 2026 人类与 AGI 峰会（下）：当机器人走进人类文明——赫拉利线上演讲、Skild AI CEO Deepak Pathak 谈具身智能](https://www.tmtpost.com/watch/QHsTbw)
+• [钛媒体·逛 WAIC 三大展馆：AI 从“能说”走向“能做”](https://www.tmtpost.com/watch/sGMxwR)
+• [36氪·机器之心 7/14：10000 小时人类数据，训练出全球首个全身移动操作隐式世界动作模型](https://m.36kr.com/user/214166)
+• [机器之心 7/13：AI 越会回答，人为何越需要深度思考？复旦发布 2026 人文社科智能发展](https://m.36kr.com/user/214166)
+• [机器之心 Week 29：强化学习之父 Richard Sutton 创立 Oak Lab；Thinking Machines Lab 发布多模态模型 Inkling](https://www.jiqizhixin.com)
+• [TechCrunch：Anthropic 与 Blackstone 押注“下一个万亿级 AI 业务在落地实施而非模型”](https://techcrunch.com)
+• [TechCrunch：Disrupt 2026——AI 让 MVP 更快，无产品的种子轮创业是否还有机会？](https://techcrunch.com/2026/07/17/no-product-no-problem-this-disrupt-2026-session-shows-how-to-get-pre-seed-funding-with-conviction-storytelling)
+• [The Verge：AI 生成“slop movies”（垃圾电影）正成为新的直接发影像变现套路](https://www.facebook.com/SlickSysAI/posts/-tech-news-roundup-july-16-2026-your-weekly-dose-of-the-biggest-tech-stories-fro/1516843487122944)
+• [MIT Technology Review：PsiQuantum 用光构建量子计算机的雄心计划](https://www.facebook.com/SlickSysAI/posts/-tech-news-roundup-july-16-2026-your-weekly-dose-of-the-biggest-tech-stories-fro/1516843487122944)
+
+━━━ 💡 趋势洞察 ━━━
+
+本周（截至 2026-07-20 周一）全球科技信号高度收敛于一条主线：Agent 从“能说”全面转向“能做”，竞争焦点从模型参数转移到算力交付与技能生态。四个层面同时印证：
+
+① 模型层——“小而强”压倒“大而贵”。Kimi K3（2.8T 参数）靠 3 倍线性注意力稀疏激活做到“大而不贵”，但仍被需求压垮算力；Qwen3-Next-80B-A3B 反向证明“1/3 参数、1/10 成本”即可对标 235B 旗舰。两条路殊途同归：2026 年的护城河不再是参数量，而是“在消费级硬件上稳定交付”的能力。Kimi 被迫暂停订阅正是这一拐点最直白的注脚——需求端已经准备好，供给侧（GPU/推理基建）才是新瓶颈。
+
+② 应用层——Agent 技能化、可组合化。GitHub Trending 几乎被 agent-skills / claude-code-templates / stitch-skills / OfficeCLI / DesktopCommanderMCP 等“技能包 + MCP”项目垄断，说明开发者心智已从“用一个 Agent”转向“装配一组可组合技能”。OpenAI Codex 数据（近 1/4 请求指向 ≥1 小时人类任务）和 Cursor 被曝做通用 Agent，从平台侧坐实了“长任务、跨应用 Agent”成为默认工作流。
+
+③ 政策与产业层——物理 AI 成国家级赌注。黄仁勋东京之行 + 日本 2040 年 1000 万台机器人 / $650 亿投资 + 钛媒体 AGI 峰会聚焦具身智能，三件事同周发生，标志“具身智能/物理 AI”正式进入主权产业政策序列。与此同时 Apple 起诉 OpenAI、Meta 下架 Muse Image，显示“AI 同意权与知识产权”正在从软争议升级为硬诉讼。
+
+④ 方法论层——“更好的验证”被点名为下一根 Scaling 轴；“第二个 Agent 专职提醒第一个”这类“元 Agent”思路开始抬升基准——意味着单纯堆 pretraining 的边际收益收窄，后训练 / 推理时验证 / Agent 编排成为新的研究主战场。
+
+给中国从业者的三条行动提示：
+• 基建：Kimi 的“订阅暂停”是前车之鉴——做产品前先把推理容量与扩容弹性算清楚，否则流量越大口碑越崩。
+• 生态：趁 agent-skills 浪潮，把自家能力沉淀成“可被 Claude Code / MCP 调用的技能包”，是当前最低成本的分发红利。
+• 合规：Apple 诉 OpenAI、Meta 下架 Muse Image 两案说明，“数据/素材默认可用”的时代结束，产品上线前必须把同意权与版权链路跑通。
+
+⚠ 数据源备注：本期 6 源中 5 源正常（AI 资讯 / GitHub Trending / Hacker News / Quora / 科技媒体），Medium 源因本机 himalaya 未配置而跳过，已记录待修复。
+
+— 由 Hermes Agent 多源整合 · GLM-5.2 生成

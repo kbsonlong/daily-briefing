@@ -1,0 +1,90 @@
+=================================================================
+  每日科技多源日报 - 2026-07-02(星期四)
+=================================================================
+
+>>> TOP 5 推荐 <<<
+
+1. [Anthropic 发布 Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5)
+   性能接近Opus 4.8成本降低, 1M上下文, 最具Agent能力的Sonnet HN 1159pts
+   评分: 9/8/7/9/9 | 推荐理由: 多源交叉验证热点, TechCrunch头条, GitHub Copilot集成
+
+2. [Claude Code隐写标记用户请求](https://thereallo.dev/blog/claude-code-prompt-steganography)
+   2161pts/624comments HN当日最高分, 开发者社区振动级事件
+   评分: 10/7/5/10/10 | 推荐理由: 跨源传播力极强
+
+3. [agency-agents 123K stars](https://github.com/msitarzewski/agency-agents)
+   单日+2114星, 多Agent协作平台登顶GitHub Trending #1
+   评分: 8/6/9/8/7 | 推荐理由: 创业信号极强, 2K+/day增速
+
+4. [AI Agent 2026 LLM到多智能体系统指南](https://eitt.academy/knowledge-base/ai-agents-2026-guide-from-llm-to-multi-agent-systems)
+   行业共识趋势, Agent架构LLM+工具+记忆+推理
+   评分: 9/9/8/7/6 | 推荐理由: 企业级采用确定性方向
+
+5. [Godot禁止AI代码贡献](https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/)
+   HN 272pts/169comments 开源社区与AI信任边界碰撞
+   评分: 7/5/3/9/8 | 推荐理由: AI辅助编程边界问题
+
+=================================================================
+  各源快览
+=================================================================
+
+AI 资讯
+  [Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5)
+  [AI Agents 2026指南](https://eitt.academy/knowledge-base/ai-agents-2026-guide-from-llm-to-multi-agent-systems)
+  [Multi-agent LLMs](https://www.superannotate.com/blog/multi-agent-llms)
+  [Google I/O Search AI](https://blog.google/products-and-platforms/products/search/search-io-2026)
+  [Writer: 记忆系统让模型变差](https://techcrunch.com/2026/06/10/how-memory-tools-can-make-ai-models-worse)
+  [OpenAI推理芯片Jalapeno](https://www.jiqizhixin.com)
+  [字节跳动豆包Seed 2.1](https://www.jiqizhixin.com)
+
+GitHub Trending
+  [agency-agents](https://github.com/msitarzewski/agency-agents) 123,372 stars +2114/day
+  [strix](https://github.com/usestrix/strix) 29,687 stars +1211/day
+  [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) 16,513 stars +694/day
+  [olmocr](https://github.com/allenai/olmocr) 18,266 stars
+  [OmniRoute](https://github.com/diegosouzapw/OmniRoute) 9,510 stars +1010/day
+  [astryx](https://github.com/facebook/astryx) 2,628 stars +708/day
+  [logto](https://github.com/logto-io/logto) 13,258 stars
+
+Hacker News
+  [Claude Code隐写 2161pts/624c](https://thereallo.dev/blog/claude-code-prompt-steganography)
+  [Claude Sonnet5 1159pts/690c](https://www.anthropic.com/news/claude-sonnet-5)
+  [Godot禁AI 272pts/169c](https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/)
+  [Copybara 237pts](https://github.com/google/copybara)
+  [Asahi Linux 7.1 195pts](https://asahilinux.org/2026/06/progress-report-7-1/)
+  [ArXiv新篇章 158pts](https://blog.arxiv.org/2026/06/30/arxivs-next-chapter/)
+
+科技媒体
+  [TechCrunch] Sonnet 5: techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents
+  [TechCrunch] AI从炒作转向实用: techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models
+  [TechCrunch] 2026裁员列表: techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai
+  [The Verge] Fable5回归: www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back
+  [36氪] WAIC 2026上海: www.36kr.com
+  [机器之心] OpenAI芯片+字节Seed2.1: www.jiqizhixin.com
+  [Quora] 2026 AI趋势: www.quora.com/What-are-the-key-AI-trends-in-2026
+
+=================================================================
+  趋势洞察
+=================================================================
+
+1) Agent时代全面降临
+  Sonnet 5专为Agent优化, agency-agents 123K stars, Vibe-Trading将AI Agent引入量化交易.
+  2026年是Agent从实验室走向生产线的一年.
+
+2) 模型经济学的范式转移
+  TechCrunch: 企业经历成本觉醒, 从谁更大转向谁更经济.
+  Sonnet 5接近Opus 4.8性能但更低价格. Google Gemini 3.5 Flash类似趋势.
+
+3) 开源社区与AI张力加剧
+  Godot封禁AI代码 + Claude Code隐写门(2161pts) = 透明度/所有权/信任三重焦虑.
+
+4) 科技裁员加速AI转型
+  Intuit 3000/Cisco 4000/Cloudflare 1100/Coinbase 14%/Snap 16%
+  CEO共识: AI让工程师几天完成过去整周的工作.
+
+=================================================================
+  方法论
+=================================================================
+数据来源: web_search/web_extract多引擎交叉抓取
+评分维度: 讨论热度/技术前沿/创业信号/开发者关注/病毒传播力
+生成时间: 2026-07-02 08:00 UTC
