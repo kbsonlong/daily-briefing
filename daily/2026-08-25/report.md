@@ -1,0 +1,45 @@
+━━━ 📡 每日科技多源日报 — 2026-08-25(星期二) ━━━
+
+🔥 TOP 5 推荐
+
+1. [传 Hugging Face 要被卖了：最新报价约 870 亿元](https://36kr.com/motif/327686782977) — 全球最大 AI 开源社区传出拟以约 874 亿元估值出售，开源生态走向成最大变数。若交易落地，将深刻影响全球 AI 开源供应链与模型分发格局。 — 评分：🔥9 💡7 🚀8 💻8 📢10
+推荐理由：Hugging Face 是几乎所有 AI 开发者的基础设施，"卖身"消息震动整个行业，讨论度与传播力拉满。
+
+2. [Anthropic's best AI model struggles to attract users as cheaper tools thrive (FT)](https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245) — FT 报道 Anthropic 最强模型用户增长乏力、低价工具崛起；同期 TechCrunch 报其年化收入冲至 $65B，Codex 商业增速反超。头部模型竞争进入"体感 vs 跑分"之争。 — 评分：🔥9 💡8 🚀9 💻8 📢8
+推荐理由：HN 220 条评论热议，叠加新智元"Claude 暗中降智实锤"报道，是本周 AI 商业格局最核心信号。
+
+3. [菲尔兹奖得主都栽了：Claude 终结 78 年悬案](https://36kr.com/motif/327686782977) — 数学家与 Claude 三天内在 S⁶ 上构造出复结构，破解 78 年数学难题；另一团队用 GPT 破解 40 年悬案。AI 正从"辅助工具"变成数学研究的独立证明者。 — 评分：🔥8 💡10 🚀6 💻7 📢9
+推荐理由：AI for Math 的里程碑时刻，或成最重要的 AI 数学成果之一。
+
+4. [obra/superpowers — An agentic skills framework & software development methodology](https://github.com/obra/superpowers) — GitHub Trending 日增 557 星（总 274k⭐），一套"真正可用"的 Agent 技能框架与开发方法论；同榜 mattpocock/skills 日增 1,894 星。Agent Skills 已成开发者生态最热赛道。 — 评分：🔥8 💡8 🚀8 💻10 📢8
+推荐理由：Skills/Harness 类项目霸榜，代表 Agent 工程化的主流方向，开发者必看。
+
+5. [Nvidia's AI chips are about to get more expensive too (Bloomberg via The Verge)](https://www.theverge.com) — 英伟达通知大客户 AI 服务器涨价超 15%，1GW 数据中心成本激增 50 亿美元；内存成本飙升是主因。AI 算力成本曲线出现拐点。 — 评分：🔥7 💡7 🚀8 💻7 📢8
+推荐理由：直接影响所有 AI 创业公司预算与推理定价，产业连锁反应刚开头。
+
+━━━ 📊 各源快览 ━━━
+🤖 AI 资讯 • [How agents are transforming work (OpenAI)](https://openai.com/index/how-agents-are-transforming-work) — Codex 内部使用量半年暴涨 56 倍，70% 任务超 1 小时
+🤖 AI 资讯 • [Stripe 将以 $7B+ 收购 AI gateway 初创 OpenRouter (TechCrunch)](https://techcrunch.com/tag/ai-models)
+💻 GitHub Trending • [mattpocock/skills](https://github.com/mattpocock/skills) — ⭐224,484 (+1,894/日)
+💻 GitHub Trending • [jundot/omlx](https://github.com/jundot/omlx) — Apple Silicon LLM 推理服务器 ⭐19,956 (+472/日)
+💻 GitHub Trending • [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) — Agent 长期记忆方案 ⭐3,315 (+606/日)
+🗞 Hacker News • [Everything I own, owned](https://schlarp.com/posts/everything-i-own-owned/) — 319 分 · 95 评论
+🗞 Hacker News • [What Is a Harness?](https://earendil.com/posts/what-is-a-harness/) — 318 分 · 137 评论
+🗞 Hacker News • [The Vibe Tax](https://insufferable.dev/posts/vibe-tax/) — 107 分 · 85 评论
+📚 Medium 精选 • 今日源不可用（himalaya 配置缺失），已跳过
+🌐 科技媒体 • [Google：和 agent 一样，环境也可以有 Harness (机器之心)](https://36kr.com/motif/327686782977)
+🌐 科技媒体 • [英伟达 AI 服务器将涨价 15% (量子位)](https://36kr.com/motif/327686782977)
+🌐 科技媒体 • [Groq raises $350M to fuel pivot from AI chips to neocloud (TechCrunch)](https://techcrunch.com/category/artificial-intelligence)
+
+━━━ 💡 趋势洞察 ━━━
+
+**1. "Harness" 成为年度关键词。** 从 HN 热文《What Is a Harness?》、机器之心报道 Google 提出"环境 Harness"，到 36氪《DeepSeek Harness 来了》——Agent 竞争焦点正从模型能力转向"运行时 + 环境 + 反馈循环"。谁掌握 Agent 的执行容器，谁就掌握下一代入口，类似移动时代的 App Store 之争。
+
+**2. 头部模型商业化分化加剧。** Anthropic 最强模型遇冷但年化收入达 $65B，OpenAI Codex 内部用量暴增 56 倍，Stripe 以 $7B+ 收购 OpenRouter——钱在流向"Agent 基础设施层"而非单纯模型层。"跑分向上、体感向下"的用户信任问题开始反噬品牌。
+
+**3. AI for Science 迎来突破周。** Claude 三天破解 78 年 S⁶ 数学悬案、GPT 核心数学证明破 40 年难题、40 位顶尖数学家齐聚 OpenAI 秘密会议——AI 正式成为数学研究的"第一作者级"工具，科研范式转变的信号已经明确。
+
+**4. 算力成本拐点隐现。** 英伟达服务器涨价 15%、Groq 转 neocloud 融资 $350M、Etched 估值一月翻倍至 $21B——供给端全面吃紧，推理成本转嫁将考验所有 AI 应用的单位经济模型。
+
+---
+*数据来源：web_search / GitHub Trending / Hacker News / 36kr·机器之心·TechCrunch·The Verge / Medium（跳过）*
