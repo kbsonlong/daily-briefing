@@ -49,3 +49,4 @@
 | 2026-08-23 | [report](./daily/2026-08-23/report.md) / [HTML](./daily/2026-08-23/index.html) |
 | 2026-08-24 | [report](./daily/2026-08-24/report.md) / [HTML](./daily/2026-08-24/index.html) |
 | 2026-08-25 | [report](./daily/2026-08-25/report.md) / [HTML](./daily/2026-08-25/index.html) |
+| 2026-08-26 | [report](./daily/2026-08-26/report.md) / [HTML](./daily/2026-08-26/index.html) |
