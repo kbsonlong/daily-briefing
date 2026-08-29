@@ -52,3 +52,4 @@
 | 2026-08-26 | [report](./daily/2026-08-26/report.md) / [HTML](./daily/2026-08-26/index.html) |
 | 2026-08-27 | [report](./daily/2026-08-27/report.md) / [HTML](./daily/2026-08-27/index.html) |
 | 2026-08-28 | [report](./daily/2026-08-28/report.md) / [HTML](./daily/2026-08-28/index.html) |
+| 2026-08-29 | [report](./daily/2026-08-29/report.md) / [HTML](./daily/2026-08-29/index.html) |
