@@ -59,3 +59,4 @@
 | 2026-09-09 | [report](./daily/2026-09-09/report.md) / [HTML](./daily/2026-09-09/index.html) |
 | 2026-09-11 | [report](./daily/2026-09-11/report.md) / [HTML](./daily/2026-09-11/index.html) |
 | 2026-09-12 | [report](./daily/2026-09-12/report.md) / [HTML](./daily/2026-09-12/index.html) |
+| 2026-09-13 | [report](./daily/2026-09-13/report.md) / [HTML](./daily/2026-09-13/index.html) |
