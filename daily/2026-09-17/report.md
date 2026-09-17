@@ -1,0 +1,58 @@
+━━━ 📡 每日科技多源日报 — 2026-09-17(星期四) ━━━
+
+🔥 TOP 5 推荐
+1. [Nvidia 宣布原生 GPU 编程支持 Rust](https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/) — Nvidia 推出 CUDA Rust 双轨制，让开发者用 Rust 编写 GPU 内核，标志着系统级编程语言正式进入 GPU 计算核心领域 — 评分🔥9 💡10 🚀8 👨‍💻10 📢8
+2. [阿里开源 open-code-review：LLM Agent 代码审查工具](https://github.com/alibaba/open-code-review) — 阿里实战验证的混合架构代码审查工具：确定性流水线 + LLM Agent，支持精确行级评论、多语言规则集（NPE、线程安全、XSS、SQL注入），兼容 OpenAI/Anthropic — 评分🔥9 💡9 🚀9 👨‍💻10 📢7
+3. [训练 4B 模型实现比 Postgres 快 81% 的查询计划](https://rohanbansal.com/qorl) — 仅 40 亿参数的小模型通过强化学习超越 PostgreSQL 优化器，展示专用小模型在数据库核心任务上替代传统启发式算法的潜力 — 评分🔥8 💡10 🚀9 👨‍💻9 📢7
+4. [Agent-Reach：给 AI Agent 装上「全网之眼」](https://github.com/Panniantong/Agent-Reach) — 一行 CLI 命令让 Agent 实时读取/搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书，零 API 费用，8.1k+ Star 爆发式增长 — 评分🔥8 💡9 🚀8 👨‍💻9 📢8
+5. [Anthropic 升级企业级 AI 工具，切入投行与 HR 场景](https://www.tmtpost.com/) — Claude Cowork 扩展至投资银行、人力资源等高价值垂直领域，标志着 Agent 从通用助手向专业级数字员工转型，企业级落地加速 — 评分🔥8 💡8 🚀9 👨‍💻7 📢8
+
+━━━ 📊 各源快览 ━━━
+🤖 AI 资讯 • [一文看懂2025年Agent六大最新趋势](https://ppio.com/blogs/post/yi-wen-kan-dong-2025nian-agentliu-da-zui-xin-qu-shi-aizhuan-lan) — Hugging Face 定义 Agent 六等级，Code Agent 为最高级；代码模型成关键推手
+🤖 AI 资讯 • [State of Agent Engineering - LangChain](https://www.langchain.com/state-of-agent-engineering) — 1340 份调查：51% 组织已有 Agent 进生产，评估以人工审核(59.8%)与 LLM-as-judge(53.3%)为主
+🤖 AI 资讯 • [2025 Microsoft Build：迈入 AI agents 时代](https://news.microsoft.com/zh-tw/2025-microsoft-build) — 微软宣布 AI Agent 时代正式开始，推理与知识管理技术突破性进展
+🤖 AI 资讯 • [Tencent 全球发布场景化 AI 能力，Agent 平台 3.0 上线](https://www.tencent.com/tencent-announces-global-rollout-of-scenario-based-ai-capabilities-to-accelerate-industrial-efficiency) — 腾讯云发布 ADP 3.0，面向客服、营销、库存、研发等场景
+🤖 AI 资讯 • [Introducing ChatGPT agent: bridging research and action](https://openai.com/index/introducing-chatgpt-agent) — ChatGPT Agent 上线，主动选择工具箱技能完成任务，Humanity's Last Exam 得分 41.6% SOTA
+
+💻 GitHub Trending • [JustVugg/colibri](https://github.com/JustVugg/colibri) — 纯 C 零依赖运行前沿 MoE 模型，专家从磁盘流式加载，⭐32,039(+2,173 today)
+💻 GitHub Trending • [alibaba/open-code-review](https://github.com/alibaba/open-code-review) — 阿里规模验证的 LLM Agent 代码审查，Go 实现，⭐25,653(+1,571 today)
+💻 GitHub Trending • [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) — 完全本地化的 ElevenLabs 替代：语音克隆、视频配音、646 语言支持，⭐29,139(+2,776 today)
+💻 GitHub Trending • [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) — 多 Agent LLM 金融交易框架，⭐106,104(+745 today)
+💻 GitHub Trending • [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) — 主流模型系统提示词泄露合集，持续更新，⭐66,744(+764 today)
+💻 GitHub Trending • [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) — Agent 全网阅读/搜索 CLI，零 API 费，⭐81,220(+651 today)
+💻 GitHub Trending • [SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red) — 面向 Claude 的进攻型安全技能库，⭐4,709(+579 today)
+💻 GitHub Trending • [ruvnet/RuView](https://github.com/ruvnet/RuView) — WiFi 信号实现无视频的实时空间智能/生命体征监测，Rust，⭐93,824(+383 today)
+
+🗞 Hacker News • [Nvidia announces native GPU programming in Rust](https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/) (677 pts)
+🗞 Hacker News • [Training a 4B model to produce 81% faster query plans than Postgres](https://rohanbansal.com/qorl) (547 pts)
+🗞 Hacker News • [Small programming tricks](https://will-keleher.com/posts/small-programming-tricks-matter/) (520 pts)
+🗞 Hacker News • [Xiaomi Mimo 2.6 live post-training dashboard](https://mimo.xiaomi.com/rl/) (430 pts)
+🗞 Hacker News • [AWS says it can't restore some data from mideast facilities struck by Iran](https://www.wsj.com/world/middle-east/aws-says-it-cant-restore-some-data-from-mideast-facilities-struck-by-iran-ddcb7e5d) (395 pts)
+🗞 Hacker News • [Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations](https://github.com/arnegiacomo/fugleramme) (2,157 pts)
+🗞 Hacker News • [Performance Improvements in .NET 11](https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-11/) (286 pts)
+🗞 Hacker News • [Backups Aren't Simple](https://filipovski.net/2026/09/16/backups-arent-simple.html) (230 pts)
+🗞 Hacker News • [OpenSpec – A lightweight and configurable AI spec framework](https://openspec.dev/) (137 pts)
+🗞 Hacker News • [HarnessTax: How Much Does the Harness Matter for Coding Agents?](https://harnesstax.github.io/) (123 pts)
+
+🌐 科技媒体 • [阿里发布三款中型千问3.5新模型，每百万Token低至0.2元](https://36kr.com/) — 36Kr 报道：阿里云大幅降价，推动模型普及
+🌐 科技媒体 • [AMD 拿下 Meta 1000 亿订单：6 吉瓦 GPU 大单 + 1.6 亿股对赌](https://www.163.com/) — 网易科技/钛媒体：AMD 在 AI 基建层面重大突破
+🌐 科技媒体 • [Anthropic 升级企业级 AI 工具，拓展投行 HR 等场景](https://www.tmtpost.com/) — 钛媒体/IT之家：Claude Cowork 切入高价值垂直场景
+🌐 科技媒体 • [DeepSeek 爆火一周年的寂静：不是掉队，是主动选择的沉默](https://www.tmtpost.com/) — 创业邦/投资界：DeepSeek 战略性隐退聚焦基础研究
+🌐 科技媒体 • [OpenAI COO：尚未真正看到 AI 渗透到企业业务流程](https://www.ithome.com/) — IT之家/DoNews：企业级落地仍处早期，Frontier 平台刚推出
+🌐 科技媒体 • [美国投资人马克·库班唱衰人形机器人：注定失败，最多活 10 年](https://k.sina.com.cn/) — 钛媒体/新浪：对具身智能商业化泼冷水
+
+━━━ 💡 趋势洞察 ━━━
+**Agent 生产化拐点已至，基建层「Rust 化」与「专用小模型」成双引擎**
+
+今日六源信号高度收敛：**Agent 从「可演示」进入「可交付」阶段**。LangChain 调查显示 51% 组织已有 Agent 进生产，阿里 open-code-review 在超大规模代码库实战验证「确定性流水线 + LLM Agent」混合架构，Anthropic 将 Claude Cowork 推向投行/HR 等高单价垂直场景，腾讯 ADP 3.0 面向客服/营销/库存/研发全链路落地。共同特征：**不再追求通用自主，而是「专用技能 + 确定性编排 + 人工介入回路」**。
+
+**技术栈双重迁移显现**：
+1. **Rust 向下渗透 GPU/基建层**：Nvidia CUDA Rust 双轨制、RuView 用 Rust 做 WiFi 感知、vaultwarden/RuView/colibri 等高星项目均为 Rust，系统级语言正重写 AI 基础设施；
+2. **专用小模型向上替代启发式算法**：4B 参数模型通过 RL 超越 PostgreSQL 优化器（81% 更快）、Xiaomi Mimo 实时后训练仪表盘、YuE2 音乐生成、VoiceStudio 语音克隆——**「小而专」模型在垂直任务上边际收益超越大模型微调**。
+
+**创业信号**：Agent-Reach（8.1k Star/天）证明「零 API 费用的全网接入」是强刚需；TradingAgents（10.6k Star）显示金融多 Agent 框架跑通 PMF；system_prompts_leaks（6.6k Star）反映提示词工程向「提取/复用/对抗」进阶。风险面：Mark Cuban 唱衰人形机器人、AWS 中东机房数据不可恢复提示地缘风险、**OpenAI COO 承认企业渗透率远低于预期**——泡沫与落地的张力将持续到 2027。
+
+**开发者行动建议**：
+- 关注 **Rust + GPU**（CUDA Rust / wgpu / burn-rs）与 **小模型 RL 训练**（GRPO / DPO / 专用奖励模型）两条技术赛道；
+- Agent 落地优先采用 **「技能注册表 + 确定性编排 + 人工审核」** 三层架构，参考 alibaba/open-code-review 与 tech-leads-club/agent-skills；
+- 警惕「通用 Agent」叙事，**垂直场景（代码审查、金融交易、投行研报、HR 筛选、数据库优化）才是当前变现入口**。
