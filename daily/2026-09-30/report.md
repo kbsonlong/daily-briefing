@@ -1,0 +1,17 @@
+━━━ 📡 每日科技多源日报 — 2026-09-30(星期三) ━━━
+
+🔥 TOP 5 推荐
+1. [vectorize-io / hindsight](https://github.com/vectorize-io/hindsight) — Hindsight: Agent Memory That Learns — 评分🔥10💡9🚀9👨‍💻10📢9
+2. [paperclipai / paperclip](https://github.com/paperclipai/paperclip) — The open-source app everyone uses to manage agents at work — 评分🔥10💡8🚀9👨‍💻10📢9
+3. [GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price](https://openai.com/index/introducing-gpt-6-1-sol/) — GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price — 评分🔥10💡10🚀8👨‍💻9📢9
+4. [Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)](https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia) — Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia) — 评分🔥9💡9🚀9👨‍💻8📢9
+5. [Artificial Intelligence | The Verge](https://www.theverge.com/ai-artificial-intelligence) — Artificial intelligence is more a part of our lives than ever before. While some might call it hype and compare it to NFTs or 3D TVs, generative AI is causing a sea change in nearly every part of the technology industry. OpenAI’s ChatGPT is still the best-known AI chatbot around, but with Google pushing Gemini, Microsoft building Copilot, and Apple adding its Intelligence to Siri, AI is probably going to be in the spotlight for a very long time. At The Verge, we’re exploring what might be [...] > The unwillingness of platforms to accept even paid advertising is sure to raise concerns about free speech and the dwindling number of companies that control many of the platforms in this country — and ironically provide a proof-text for the very point the film is coming to make. Gibney’s doc is a four-hour look at a title character who attempts to control the conversation in various ways, including with alleged suppressions on X, which he bought in 2022. — 评分🔥9💡9🚀8👨‍💻8📢9
+
+━━━ 📊 各源快览 ━━━
+🤖 AI 资讯 • [AI Agents News — Week of September 29, 2026 (Daily Updates)](https://aiagentstore.ai/ai-agent-news/this-week)
+💻 GitHub Trending • [dream-num / univer](https://github.com/dream-num/univer) — ⭐1050
+🗞 Hacker News • [Show HN: TurboGPT: train 22KiB transformer in 13s](https://github.com/lostmsu/TurboGPT)
+🌐 科技媒体 • [Can tech companies learn to love cheaper AI models?](https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models)
+
+━━━ 💡 趋势洞察 ━━━
+今日科技呈现两大明趋：一是AI Agent生态爆发，如Hindsight、Paperclip等项目单日获获数千星标，显示开发者对Agent管理、记忆技术的强烈需求；二是算力独立化加速，OpenAI、SpaceX等巨头纷纷研发自研芯片以打破对英伟达的垄断，标志着AI基础设施的去中心化趋势。此外，轻量化模型（如GPT 6.1 Sol）仍是降本关键方向。建议关注Agent通用协议（MCP）和边缘计算芯片的后续发展。
