@@ -76,3 +76,4 @@
 | 2026-10-07 | [report](./daily/2026-10-07/report.md) / [HTML](./daily/2026-10-07/index.html) |
 | 2026-10-08 | [report](./daily/2026-10-08/report.md) / [HTML](./daily/2026-10-08/index.html) |
 | 2026-10-11 | [report](./daily/2026-10-11/report.md) / [HTML](./daily/2026-10-11/index.html) |
+| 2026-10-12 | [report](./daily/2026-10-12/report.md) / [HTML](./daily/2026-10-12/index.html) |
