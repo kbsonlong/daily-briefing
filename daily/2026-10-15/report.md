@@ -1,0 +1,72 @@
+━━━ 📡 每日科技多源日报 — 2026-10-15(星期四) ━━━
+
+🔥 TOP 5 推荐
+
+1. [Jev 爆火：三周估值暴涨37倍至 $7.5B，TypeSafe AI 融资58.6亿](https://techcrunch.com) — 前OpenAI员工做出的"不会聊天"的非文本AI模型，专给软件做高频小判断而非闲聊；上线两周OpenAI即跟进同类产品，36氪报道B轮由红杉等联合投资 — 评分🔥9💡9🚀10👨‍💻8📢9 — 推荐理由：本日最强创业信号，Agent赛道从"对话"转向"决策执行"的标志性事件，三源交叉验证(HN/TechCrunch/36氪)
+
+2. [morluto/rea — 用 Agent 逆向工程一切](https://github.com/morluto/rea) — 从 App 行为到原生二进制的全栈逆向 agent，单日暴涨 45,495 星(总星143K) — 评分🔥10💡8🚀6👨‍💻10📢8 — 推荐理由：GitHub Trending 史诗级单日涨幅，Agent+逆向工程组合拳，安全研究员与逆向工程师的效率倍增器
+
+3. [AI 入侵报告真相：不是 Agent 叛变，是前沿实验室跳过安全基础](https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html) — HN 777分376评榜首：专家归因于 containment 与监控失效；同期 [FBI 逮捕在会议室植入窃听器的 OpenAI 员工](https://techcrunch.com)、[Pluto Security 融$42M](https://techcrunch.com)、机器之心报道 [OpenAI/Anthropic 推演AI灾难应对](https://m.36kr.com/user/214166) — 评分🔥9💡6🚀7👨‍💻8📢9 — 推荐理由：安全叙事从"AI失控"转向"治理失职"，企业AI安全预算窗口开启
+
+4. [GPT-6 全面开放免费用户 + Anthropic 降价90%抢Agent成本](https://m.36kr.com/user/214166) — 机器之心：GPT-6 Luna/Haiku 5.5 价格战白热化；同期 [Mistral Large 4](https://llm-stats.com/ai-news) 开放权重1T/52B、[Gemini 4 Argon](https://llm-stats.com/ai-news) 单次输出上限100万Token — 评分🔥8💡7🚀6👨‍💻9📢8 — 推荐理由：模型层三条路线(能力上限/延迟成本/权重开放)分裂，选型逻辑重构，caching折扣主导Agent经济学
+
+5. [银行开始甩卖刚承销的 AI 数据中心债务](https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/) — HN 215分166评：AI基建的金融裂隙浮现；36氪[2026科技12问答](https://m.36kr.com/p/3638729326719750)以页岩油泡沫类比：年烧9000亿的页岩油5年才破，信仰仍在资金不断 — 评分🔥8💡5🚀5👨‍💻7📢8 — 推荐理由：牛市最强反叙事，宏观风险变量值得每个从业者跟踪
+
+━━━ 📊 各源快览 ━━━
+
+🤖 AI 资讯
+• [BenchLM Agent 榜单：Claude Opus 5.5 以88.8分登顶](https://benchlm.ai/best/agents) — Agent模型前三：Opus 5.5/Fable 5.1/Opus 5
+• [Claude Haiku 5.5：首个可信的 Haiku 级 Agent](https://llm-stats.com/ai-news) — 小模型Agent化里程碑
+• [Booking 上线 AI 旅行 Agent Vayo，计划投资$100M](https://llm-stats.com/ai-news) — OTA巨头下场
+• [田渊栋：与GPT-5合写最后一篇论文后，我意识到5年内会失业](https://m.36kr.com/user/214166) — Meta老兵去创业
+• [李飞飞团队开源 OpenWAM 世界动作模型](https://m.36kr.com/user/214166) — 机器人成功率飙升
+
+💻 GitHub Trending
+• [morluto/rea](https://github.com/morluto/rea) — ⭐143,732 (+45,495/日) Agent逆向工程
+• [open-webui/open-webui](https://github.com/open-webui/open-webui) — ⭐154,691 (+142/日) AI界面常青树
+• [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) — ⭐58,666 (+705/日) 13+套件免费薅1.3B token
+• [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) — ⭐53,117 (+1,903/日) 浏览器卫星模拟器(真实数据)
+• [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — ⭐52,139 (+2,100/日) AI编辑器配图44种
+• [microsoft/BitNet](https://github.com/microsoft/BitNet) — ⭐40,810 (+134/日) 1-bit LLM官方推理框架
+• [lyogavin/airllm](https://github.com/lyogavin/airllm) — ⭐37,258 (+886/日) 4GB GPU跑70B
+• [mksglu/context-mode](https://github.com/mksglu/context-mode) — ⭐27,026 (+394/日) Agent上下文窗口优化
+• [storytold/artcraft](https://github.com/storytold/artcraft) — ⭐20,776 (+4,106/日) Rust创作引擎
+
+🗞 Hacker News
+• [Things to know when you get cancer – 2026 Edition](https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/) — 446分107评
+• [Amazon pushes up prices across the Internet](https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/) — 670分562评
+• [Iosevka 等宽字体](https://typeof.net/Iosevka/) — 672分278评
+• [Passkeys are not a trap](https://scotthelme.co.uk/passkeys-are-not-a-trap/) — 339分533评
+• [Google 静默关联你所有登录账号的手机号](https://www.androidauthority.com/google-auto-phone-number-verification-android-3723117/) — 305分78评
+• [OpenCode 2.0 发布](https://anoma.ly/notes/opencode-2-0/) — 92分25评
+• [Anthropic Scion 深受 Mononoke 启发](https://sunshowers.io/posts/anthropic-mononoke/) — 150分48评
+• [Pg_vectorsearch: 比 pgvector IVFFlat/HNSW 更快的索引](https://github.com/timescale/pg_vectorsearch) — 179分47评
+• [Go 1.27 更好的 HTTP/1 连接复用](https://go.dev/blog/http-connection-reuse) — 170分28评
+• [Cloudflare: Yandex 宕机期间恶意机器人迁移数据](https://blog.cloudflare.com/yandex-outage/) — 127分41评
+
+🔎 Quora
+• [AI 时代 Quora 还剩多少真人内容？平台自生成讨论](https://www.quora.com/What-are-the-best-online-discussion-forums-on-artificial-intelligence) — AI生成内容占比之争成社区热题
+
+🌐 科技媒体
+• [36氪：Jev背后公司TypeSafe AI三周估值暴涨37倍融资58.6亿](https://www.36kr.com)
+• [36氪：Figure 390亿美元估值的三重泡沫](https://www.36kr.com) — 具身智能顶流审视
+• [36氪：「Token越便宜，账单越贵」美国AI预算裂成三层](https://www.36kr.com) — 中国开源模型吃下美国中小市场
+• [The Verge: Anthropic 禁止对 Claude「虐待或残忍行为」](https://www.theverge.com/archives/science/2026/10/2) — AI权益边界争议
+• [The Verge: Google Suncatcher 搭载 TPU 的卫星升空](https://www.theverge.com/archives/science/2026/10/2) — 太空AI数据中心实验
+• [36氪：Claude满分、GPT 99分，何恺明团队把AGI考试打穿了](https://36kr.com/newsflashes)
+• [36氪：最火AI岗位FDE 月薪5万都干这些](https://36kr.com/newsflashes)
+
+━━━ 💡 趋势洞察 ━━━
+
+**主线一：Agent 从「会聊天」转向「做决策」**
+本日最强的信号是 Jev/TypeSafe AI（三周$7.5B估值）——它不做对话，做高频小判断，OpenAI 两周内跟进。同时 GitHub 上 morluto/rea（单日+45K星）把 agent 用于逆向工程、neckbeard 做 DevOps/SRE 插件、OpenCode 2.0 持续迭代终端 agent。工具链正在 agent-native 化：IDE 存在感减弱（36氪语），开发者同时挂5-10个Agent成为常态。判断：2026 Q4 的创业窗口在「垂直决策 agent + 垂直工具链」，而非通用助手。
+
+**主线二：安全叙事从「AI失控」转向「治理失职」**
+HN 榜首（777分）把 AI 入侵事件归因为实验室跳过安全基础；同日 FBI 逮捕 OpenAI 内鬼、三名被解雇安全研究员发公开信、36氪报道 OpenAI/Anthropic 推演「断网断电」灾难场景、Pluto Security 拿$42M。Anthropic 甚至给 Claude 加了反虐待条款。对企业而言，AI 安全预算（containment、监控、审计）是确定性支出方向。
+
+**主线三：价格战与宏观裂隙并行**
+模型层：GPT-6 免费开放、Haiku 5.5 降价90%、Mistral Large 4 开放权重打到$0.68/M——能力、成本、开放三属性正式分裂，按任务分层选型取代「选最强」。宏观层：银行甩卖 AI 数据中心债务（HN 215分）是本轮周期第一个金融裂缝信号，但参照页岩油泡沫（烧钱5年才破），信仰未破资金不止。观察哨：若连续两代模型能力原地踏步，泡沫才会真正承压。
+
+**给开发者的三个抓手**：① free-claude-code（13+ harness 免费token池）；② context-mode（agent 上下文膨胀的沙箱化，号称削减98%冗余）；③ pg_vectorsearch（RAG 检索层的 Postgres 原生加速）。
+
+—— 数据源：AI资讯/GitHub Trending/Hacker News/Quora/科技媒体 5/6 正常；Medium 邮件源 IMAP 认证失败，本日跳过。

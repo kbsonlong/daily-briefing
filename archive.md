@@ -79,3 +79,4 @@
 | 2026-10-12 | [report](./daily/2026-10-12/report.md) / [HTML](./daily/2026-10-12/index.html) |
 | 2026-10-13 | [report](./daily/2026-10-13/report.md) / [HTML](./daily/2026-10-13/index.html) |
 | 2026-10-14 | [report](./daily/2026-10-14/report.md) / [HTML](./daily/2026-10-14/index.html) |
+| 2026-10-15 | [report](./daily/2026-10-15/report.md) / [HTML](./daily/2026-10-15/index.html) |
