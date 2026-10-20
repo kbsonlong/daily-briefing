@@ -25,3 +25,4 @@
 | 2026-09-17 | [report](./daily/2026-09-17/report.md) / [HTML](./daily/2026-09-17/index.html) |
 | 2026-09-21 | [report](./daily/2026-09-21/report.md) / [HTML](./daily/2026-09-21/index.html) |
 | 2026-09-30 | [report](./daily/2026-09-30/report.md) / [HTML](./daily/2026-09-30/index.html) |
+| 2026-10-20 | [report](./daily/2026-10-20/report.md) / [HTML](./daily/2026-10-20/index.html) |
