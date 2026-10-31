@@ -27,3 +27,4 @@
 | 2026-09-30 | [report](./daily/2026-09-30/report.md) / [HTML](./daily/2026-09-30/index.html) |
 | 2026-10-20 | [report](./daily/2026-10-20/report.md) / [HTML](./daily/2026-10-20/index.html) |
 | 2026-10-22 | [report](./daily/2026-10-22/report.md) / [HTML](./daily/2026-10-22/index.html) |
+| 2026-10-31 | [report](./daily/2026-10-31/report.md) / [HTML](./daily/2026-10-31/index.html) |

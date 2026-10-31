@@ -1,0 +1,55 @@
+━━━ 📡 每日科技多源日报 — 2026-10-31(星期六) ━━━
+
+🔥 TOP 5 推荐
+
+1. [Backdoor in Claude Code for VS Code extension on the Cursor Marketplace](https://phorion.io/blog/offical-claude-code-vsx-compromise/) — 假冒 Claude Code VSX 扩展被植入 SSH 后门，经 Cursor Marketplace 传播感染多达 5,000 名开发者，AI 编程工具供应链攻击正式成为现实威胁。 — 🔥10 💡7 🚀6 👨‍💻10 📢10
+   推荐理由：HN 655 分/425 评论，今日全网讨论度最高；所有用 AI 编程工具的开发者都应立刻检查本地扩展。
+
+2. [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) — Cloudflare 开源的 coding-agent 安全审计 skill：多阶段审计流程，输出经独立验证、机器可读的 findings，单日暴涨 2,264 ⭐。 — 🔥9 💡8 🚀7 👨‍💻10 📢8
+   推荐理由：与今日"后门事件"形成完美呼应——社区在用 agent skill 反制 agent 时代的供应链攻击，agent 安全基础设施是下一个风口。
+
+3. [AI isn't replacing SREs, it's deskilling them](https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling) — AI 没有取代 SRE，而是让 SRE "去技能化"：值班工程师把 AI 诊断当行动许可，核心排障能力在悄悄流失。 — 🔥9 💡7 🚀4 👨‍💻9 📢9
+   推荐理由：HN 420 分/311 评论的大讨论，触及 AI 时代组织能力的根本问题，工程管理者必读。
+
+4. [Sleep framework: A new way for LLMs to retain knowledge in continual learning](https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continuous-learning/) — Google Research 借鉴人类睡眠记忆巩固机制，提出 LLM 持续学习新框架，缓解灾难性遗忘。 — 🔥7 💡10 🚀6 👨‍💻8 📢6
+   推荐理由：技术前沿浓度最高的一篇，持续学习是 agent 长期记忆的关键拼图，HN 122 分。
+
+5. [Anthropic may not secure investment-grade rating after IPO, Blackstone says](https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f) — 黑石称 Anthropic IPO 后可能拿不到投资级评级，AI 巨头的巨额算力债务开始被债市重新定价。 — 🔥9 💡6 🚀9 👨‍💻5 📢8
+   推荐理由：HN 212 分/154 评论；AI 资本叙事从"无限融资"转向"信用审视"，是行业周期信号。
+
+━━━ 📊 各源快览 ━━━
+
+🤖 AI 资讯
+• [Uber Deploys OpenAI ChatGPT Work to All 30,000 Employees After 1,000-User Pilot](https://aiweekly.co/ai-news-today/agents-ai-news) — Uber 试点后全员工部署 ChatGPT Work，企业级 agent 规模化落地标杆
+• [OpenAI Cuts Live Internet Access From Frontier Model Training](https://aiweekly.co/ai-news-today/agents-ai-news) — OpenAI 停止用实时互联网数据训练前沿模型
+• [G2 2026 AI Agents Report: Crossing the Agentic Chasm](https://company.g2.com/news/2026-ai-agents-report) — 千名 B2B 买家调研：AI Agent 已从试点走向生产，但主流买家要求"证据而非承诺"
+
+💻 GitHub Trending
+• [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) — ⭐45.7k（今日 +2,264）
+• [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) — ⭐85.6k（+1,588）全本地 ElevenLabs 替代：语音克隆/配音/转写
+• [makecindy/cindy](https://github.com/makecindy/cindy) — ⭐4.4k（+477）开箱即用开源 AI Agent
+• [Renhuai123/ziwei-doushu](https://github.com/Renhuai123/ziwei-doushu) — ⭐7.4k（+489）紫微斗数开源排盘引擎
+• [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — ⭐86.9k（+619）提升 AI 编程工具设计能力的设计语言
+• [Nutlope/hallmark](https://github.com/Nutlope/hallmark) — ⭐32.8k（+455）Anti-AI-slop 设计 skill
+• [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) — ⭐113.9k（+309）多 Agent LLM 金融交易框架
+
+🗞 Hacker News
+• [Northflank Breached](https://status.northflank.com) — 292 分/216 评论，云平台入侵事件
+• [Azure's Weakest Link – Five Full Cross-Tenant Compromises](https://www.binarysecurity.no/posts/2026/10/one-root-case) — 240 分，Azure 五次完整跨租户攻破复盘
+• [Blockchain intelligence firms link North Korea to $6.3B hack on Binance](https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance) — 171 分，史上最大加密失窃
+• [Show HN: A working Nintendo in ~1GB of Qwen weights](https://github.com/dbreunig/nesformer) — 144 分，用 1GB Qwen 权重"运行"任天堂模拟器
+• [The federated code forge](https://tangled.org/blog/forge/) — 179 分，联邦制代码托管平台 tangled
+
+🌐 科技媒体
+• [OpenAI重写大模型法则，第一条：忠于人类](https://www.36kr.com/information/AI) — 量子位/36氪：OpenAI 更新模型行为准则，被称新版"机器人三定律"
+• [重磅，AI补全人类史上最大数学证明，数学家当场泪崩](https://www.36kr.com/information/AI) — 新智元：AI 24 天完成人类半个世纪的工作量
+• [机器之心 Week 43：DeepSeek 开源内部推理框架 DeepInfer；Meta Muse 能否打赢翻身仗](https://www.jiqizhixin.com) — 一周 AI 要闻精选
+• [Cursor 工程师月烧 1.5 万亿 token，年账单 1.32 亿美元](https://www.36kr.com/information/AI) — InfoQ：AI 编程的算力成本到底有多疯狂
+
+━━━ 💡 趋势洞察 ━━━
+
+**今日主线：AI 供应链安全集体告警，Agent 信任危机从"体验问题"升级为"安全问题"。** 单日之内：Claude Code 假扩展后门感染约 5,000 开发者、Northflank 与 Bunny CDN 相继公告入侵、Azure 被披露五次完整跨租户攻破、朝鲜关联 $6.3B Binance 史上最大失窃——HN 首页近 1/3 是安全事件。而 Cloudflare 单日 +2,264 ⭐ 的 security-audit-skill 给出了社区答卷：把安全审计做成 coding-agent 的可验证 skill，让 agent 自己成为防线。对自建 agent 工作流的团队（包括我们），教训直接：**扩展/skill 的安装来源审计与 MCP 权限最小化，今天就应该做。**
+
+**第二条线：Agent 商业化进入"要证据"阶段。** G2 年度报告借用《跨越鸿沟》指出 AI Agent 正卡在早期采用者与主流务实买家之间；Uber 全员部署 ChatGPT Work 是规模化标杆，但 Apollo 经济学家发现科技行业之外 AI 几乎没有财务回报。配合黑石对 Anthropic IPO 评级的质疑、Cursor 年烧 $1.32 亿 token 的成本争议，市场正在从"信仰溢价"转向"信用定价"。
+
+**技术侧：** Google 的 Sleep framework 把人类睡眠记忆巩固机制引入 LLM 持续学习，指向 agent 长期记忆的下一块拼图；国内侧，DeepSeek 开源推理框架 DeepInfer、伯克利"Agent Teams"持续自进化研究、以及 Cursor Composer/SWE-1.5 被扒出"思考时说中文"（国产开源基座的全球渗透）——中国开源模型正在从追赶者变成隐形的行业底座。
