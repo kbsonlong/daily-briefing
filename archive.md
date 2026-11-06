@@ -110,3 +110,4 @@
 | 2026-11-03 | [report](./daily/2026-11-03/report.md) / [HTML](./daily/2026-11-03/index.html) |
 | 2026-11-04 | [report](./daily/2026-11-04/report.md) / [HTML](./daily/2026-11-04/index.html) |
 | 2026-11-05 | [report](./daily/2026-11-05/report.md) / [HTML](./daily/2026-11-05/index.html) |
+| 2026-11-06 | [report](./daily/2026-11-06/report.md) / [HTML](./daily/2026-11-06/index.html) |
