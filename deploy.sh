@@ -31,7 +31,7 @@ h1{color:#1a1a2e;border-bottom:3px solid #e94560;padding-bottom:10px}
 <h1>Daily Tech Multi-Source Briefing</h1>
 <div class="card"><p>6 sources: AI News, GitHub Trending, Hacker News, Quora, Tech Media, Medium</p></div>
 HEND
-if [ -n "$F" ]; then echo '<div class="card latest"><h3><a href="./daily/'"$F"'/index.html">'"$F"' report</a></h3></div>' >> index.html; fi
+if [ -n "$F" ]; then echo '<div class="card latest"><h3><a href="./daily/'\"$F\"'/index.html">\"$F\"\" report</a></h3></div>' >> index.html; fi
 echo '<h2>Archive</h2><p><a href="./archive.md">View all</a></p><hr><p class="stats">Auto-generated</p></body></html>' >> index.html
 git add -A && git commit -m "daily: $DATE" 2>/dev/null || true
 git push origin main 2>/dev/null && echo "Pushed" || echo "Push skipped"
