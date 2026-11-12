@@ -1,4 +1,4 @@
-━━━ 📡 每日科技多源日报 — 2026-11-11 (星期一) ━━━
+━━━ 📡 每日科技多源日报 — 2026-11-12 (星期四) ━━━
 
 🔥 TOP 5 推荐
 1. [DeepSeek's AI-agent platform reaches 1.54 million daily users](https://aiagentstore.ai/ai-agent-news/this-week) — DeepSeek AI 代理平台日活突破 154 万，标志代理产品从演示走向规模化用户使用。评分：🔥💡🚀👨‍💻📢 — 9.5/10
@@ -19,7 +19,7 @@
 🗞 Hacker News • [Claude Fable 5.2 and Mythos 5.2](https://news.ycombinator.com/item?id=50429068)
 🗞 Hacker News • [AlphaProof Code](https://news.ycombinator.com/item?id=50439193)
 🗞 Hacker News • [Amazon saves millions by replacing Sonnet 4.6 with Strands Decider](https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/)
-📚 Medium 精选 • [Medium 订阅邮件](https://medium.com/feed) (无法读取)
+📚 Medium 精选 • [Medium 订阅邮件](https://medium.com/feed)（无法读取）
 🌐 科技媒体 • [机器之心 — AI 竞争下半场：电力与制造的系统工程](https://m.36kr.com/user/214166)
 🌐 科技媒体 • [Google TPU 在轨运行 Gemma 4](https://m.36kr.com/2026-11-01)
 🌐 科技媒体 • [36氪 — 2026 年科技行业的 12 个关键问答](https://m.36kr.com/p/3638729326719750)
@@ -47,7 +47,3 @@
 - Quora：✅ 10 条（AI bubble, AI growth, predictions, China AI, etc.）
 - 科技媒体：✅ 15 条（36kr, 机器之心, The Verge, TechCrunch, 36kr 搜索）
 - Medium 订阅邮件：❌ 跳过（himalaya CLI 读取失败，无 medium 文件夹）
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🕐 报告生成时间：2026-11-11 08:30 CST
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
